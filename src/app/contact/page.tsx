@@ -1,0 +1,69 @@
+import "../css/var.css";
+import "../css/foundation.css";
+import "../css/content.css";
+
+export default function Contact() {
+  return (
+    <main>
+        <div id="maincard">
+            <div className="h2card">
+                <h2 className="n1">プロフィール</h2>
+                <div className="h3card">
+                    <h3>茅根啓介</h3>
+                    <p>
+                        「いろいろ」というアカウント名で活動しています。SwiftUIでのアプリケーションの開発をメインとしており、私が必要とするアプリを制作しております。また、他の開発者様と連絡をとりアプリを改良したり移植したりする活動も行なっております。
+                    </p>
+                    <div className="h4card">
+                        <h4>経歴</h4>
+                        <table>
+                        <thead>
+                            <tr>
+                                <th>日付</th>
+                                <th>内容</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>2023/7/19</td>
+                                <td>こちらのサイトを設立</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div className="h4card">
+                        <h4>連絡先</h4>
+                        <p>こちらは、開発したアプリやこのウェブサイトのお問い合わせ先です。基本的に<strong>メールアドレス</strong>から連絡をいただけると幸いです。</p>
+                        <p>知り合いで私的な用事のために連絡を取りたい場合は、基本的に私用のメールアドレスで連絡をお願いします。もし、連絡先を知らない場合は、こちらに連絡していただいても構いません。私用のメールアドレスで返信します。</p>
+                        <p>メールアドレス：<a href="mailto:iroiro.work1234@gmail.com">iroiro.work1234@gmail.com</a></p>
+                        <p>Twitter：<a href="https://twitter.com/IroIro1234work">https://twitter.com</a></p>
+                        <p>Bluesky：<a href="https://bsky.app/profile/bluesky.iroiro.me">https://bsky.app</a></p>
+                        <p>mastodon：<a rel="me" href="https://mastodon.social/@Iroiro">https://mastodon.social</a></p>
+                        <p>GitHub：<a href="https://github.com/KC-2001MS">https://github.com</a></p>
+                        <p>Hugging Face：<a href="https://huggingface.co/Iroiro">https://huggingface.co</a></p>
+                        <p>Stack Overflow：<a
+                                href="https://stackoverflow.com/users/21741409/iroiro">https://stackoverflow.com</a></p>
+                        <p>note：<a href="https://note.com/iroiro_work">https://note.com</a></p>
+                    </div>
+                    <div className="h4card">
+                        <h4>販売</h4>
+                        <p>App Store：<a
+                                href="https://apps.apple.com/jp/developer/keisuke-chinone/id1586934587">https://apps.apple.com</a>
+                        </p>
+                        <p>booth：<a href="https://iroirowork.booth.pm">https://iroirowork.booth.pm</a></p>
+                    </div>
+                    <div className="h4card">
+                        <h4>動画</h4>
+                        <p>YouTube：
+                            <a href="https://www.youtube.com/@IroiroWork">https://www.youtube.com</a>
+                        </p>
+                    </div>
+                    <div className="h4card">
+                        <h4>寄付</h4>
+                        <p>寄付をご希望の方は、こちらをクリックしてください。ご寄付いただいたお金は、私のプログラミング・スキルの向上とアプリケーションのメンテナンスに使わせていただきます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+  );
+}
