@@ -1,10 +1,8 @@
 import Image from "next/image";
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import AppStoreLink from '@/components/AppStoreLink';
-import "../css/var.css";
-import "../css/foundation.css";
-import "../css/content.css";
-import "../css/product.css";
+import "@styles/content.css";
+import "@styles/product.css";
 
 export default function Product() {
   return (

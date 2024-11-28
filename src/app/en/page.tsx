@@ -1,5 +1,5 @@
-import "../css/var.css";
-import "../css/foundation.css";
+import "@styles/var.css";
+import "@styles/foundation.css";
 
 
 export default function Home() {

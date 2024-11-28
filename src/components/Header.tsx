@@ -1,5 +1,5 @@
-import "../app/css/var.css";
-import "../app/css/foundation.css";
+import "../app/styles/var.css";
+import "../app/styles/foundation.css";
 
 const Header = () => {
   return (

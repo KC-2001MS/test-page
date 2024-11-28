@@ -1,6 +1,4 @@
-import "../css/var.css";
-import "../css/foundation.css";
-import "../css/content.css";
+import "@styles/content.css";
 
 export default function Contact() {
   return (

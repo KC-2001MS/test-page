@@ -1,7 +1,3 @@
-import "../css/var.css";
-import "../css/foundation.css";
-
-
 export default function Home() {
   return (
     <main>
