@@ -11,6 +11,6 @@ const MailLink = ({ mail }: MailLinkProps) => {
     return (
         <Link className="right" href={embedUrl}>mail</Link>
     );
-  };
-  
+};
+
 export default MailLink;
