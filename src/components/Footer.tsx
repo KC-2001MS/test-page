@@ -1,5 +1,5 @@
-import "../app/styles/var.css";
-import "../app/styles/foundation.css";
+import "@styles/var.css";
+import "@styles/foundation.css";
 
 const Footer = () => {
     return (
