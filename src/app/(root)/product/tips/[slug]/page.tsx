@@ -5,20 +5,18 @@ import { remark } from "remark";
 import html from "remark-html";
 
 type TipsPageProps = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
 export default async function TipsPage({ params }: TipsPageProps) {
-  const { slug } = params;
-  const { title, description, content } = await getTip(slug);
+  const { slug } = await params
+  const { content } = await getTip(slug);
 
   return (
      <main>
       <div id="maincard">
-      <h1>{title}</h1>
-      <p>{description}</p>
       <div dangerouslySetInnerHTML={{ __html: content }} />
     </div>
     </main>
@@ -30,12 +28,10 @@ async function getTip(slug: string) {
   const filePath = path.join(process.cwd(), "content/tips", `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
-  const { data, content } = matter(fileContents);
+  const { content } = matter(fileContents);
   const processedContent = await remark().use(html).process(content);
 
   return {
-    title: data.title,
-    description: data.description,
     content: processedContent.toString(),
   };
 }
