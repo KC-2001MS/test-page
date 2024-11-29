@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   basePath: process.env.GITHUB_PAGES ? '/test-page' : '',
   assetPrefix: process.env.GITHUB_PAGES ? '/test-page/' : '',
-  // trailingSlash: true,
+  trailingSlash: true,
   images: {
     unoptimized: true, // Disable image optimization
   },
