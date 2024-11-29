@@ -63,7 +63,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">麻雀牌コンバータ</h4>
                             <a href="https://apps.apple.com/app/mahjong-tile-converter/id6470128646">
-                                <Image src="/images/Mahjong Tile Converter.avif" className="appIcon left" height={100} width={100} alt="麻雀牌コンバータアイコン"/>       
+                                <Image src={`${PATH}/images/Mahjong Tile Converter.avif`} className="appIcon left" height={100} width={100} alt="麻雀牌コンバータアイコン"/>       
                             </a>
                         </div>
                         <div className="clear">
@@ -96,7 +96,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">My Word X</h4>
                             <a href="https://apps.apple.com/us/app/my-word-x/id6450119338">
-                                <Image src="/images/My Word X.avif" className="appIcon left" height={100} width={100} alt="My Word Xアイコン"/>
+                                <Image src={`${PATH}/images/My Word X.avif`} className="appIcon left" height={100} width={100} alt="My Word Xアイコン"/>
                             </a>
                         </div>
                         <div className="clear">
@@ -149,7 +149,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">Word Filter X</h4>
                             <a href="https://apps.apple.com/jp/app/word-filter-x/id1668831130">
-                                <Image src="/images/Word Filter X.avif" className="appIcon left" height={100} width={100} alt="Word Filter Xアイコン"/>
+                                <Image src={`${PATH}/images/Word Filter X.avif`} className="appIcon left" height={100} width={100} alt="Word Filter Xアイコン"/>
                             </a>
                         </div>
                         <div className="clear">
@@ -197,7 +197,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">Uncheck X</h4>
                             <a href="https://apps.apple.com/us/app/uncheck-x/id6446932202">
-                                <Image src="/images/Uncheck X.avif" className="appIcon left" height={100} width={100} alt="Uncheck Xアイコン"/>
+                                <Image src={`${PATH}/images/Uncheck X.avif`} className="appIcon left" height={100} width={100} alt="Uncheck Xアイコン"/>
                             </a>
 
                         </div>
@@ -251,7 +251,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">Simple Editor X</h4>
                             <a href="https://apps.apple.com/us/app/simple-editor-x/id1612026794">
-                                <Image src="/images/Simple Editor X.avif" className="appIcon left" height={100} width={100} alt="Simple Editor Xアイコン"/>
+                                <Image src={`${PATH}/images/Simple Editor X.avif`} className="appIcon left" height={100} width={100} alt="Simple Editor Xアイコン"/>
                             </a>
                         </div>
                         <div className="clear">
@@ -298,7 +298,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">Death To _blank</h4>
                             <a href="https://apps.apple.com/us/app/death-to-blank/id1672080999">
-                                <Image src="/images/Death To _blank.avif" className="appIcon left" height={100} width={100} alt="Death To _blankアイコン"/>
+                                <Image src={`${PATH}/images/Death To _blank.avif`} className="appIcon left" height={100} width={100} alt="Death To _blankアイコン"/>
                             </a>
                         </div>
                         <div className="clear">
