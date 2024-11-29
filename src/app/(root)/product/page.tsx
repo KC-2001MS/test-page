@@ -4,6 +4,8 @@ import AppStoreLink from '@/components/AppStoreLink';
 import "@styles/content.css";
 import "@styles/product.css";
 
+const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
+
 export default function Product() {
   return (
     <main>
@@ -16,7 +18,7 @@ export default function Product() {
                         <div className="appInfoTop">
                             <h4 className="left appTitle">日本企業情報</h4>
                             <a href="https://apps.apple.com/app/日本法人情報/id6477782786">
-                                <Image src="/images/Japan Corp Info.avif" className="appIcon left" height={100} width={100} alt="日本企業情報アイコン"/>       
+                                <Image src={`${PATH}//images/Japan Corp Info.avif`} className="appIcon left" height={100} width={100} alt="日本企業情報アイコン"/>       
                             </a>
                         </div>
                         <div className="clear">
