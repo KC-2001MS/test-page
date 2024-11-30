@@ -7,10 +7,62 @@ import "@styles/foundation.css";
 export const metadata: Metadata = {
   title: "【SwiftUIアプリ開発】いろいろポートフォリオ",
   description: "茅根啓介（活動名：いろいろ）のポートフォリオサイトです。Appleプラットフォームでアプリケーションを展開しております。このサイトでは、App Storeでリリースしたアプリの情報とサポート等を行います。",
-  keywords: ["SwiftUI", "茅根啓介"],
-  viewport: "width=device-width, initial-scale=1.0",
+  abstract: '茅根啓介（活動名：いろいろ）のポートフォリオサイトです。Appleプラットフォームでアプリケーションを展開しております。このサイトでは、App Storeでリリースしたアプリの情報とサポート等を行います。',
+  applicationName: 'いろいろポートフォリオ',
+  authors: [
+    {
+      name: '茅根啓介',
+      url: 'https://iroiro.dev',
+    },
+  ],
   creator: "茅根啓介",
   publisher: "茅根啓介",
+  generator: 'Next.js',
+  keywords: ["SwiftUI", "茅根啓介"],
+  // 
+  robots: {
+    index: false,
+    follow: false,
+  },
+  alternates: {
+    canonical: "https://iroiro.dev/en/",
+    languages: {
+      ja: "https://iroiro.dev/",
+      en: "https://iroiro.dev/en/",
+    },
+  },
+  icons: [
+    { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+    { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+  ],
+  openGraph: {
+    type: 'article',
+    url: 'https://iroiro.dev',
+    title: '【SwiftUIアプリ開発】いろいろポートフォリオ',
+    description: '茅根啓介（活動名：いろいろ）のポートフォリオサイトです。Appleプラットフォームでアプリケーションを展開しております。このサイトでは、リリースしたアプリの情報とサポート等を行います。',
+    siteName: 'いろいろのポートフォリオ',
+    images: [
+      {
+        url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@IroIro1234work',
+    creator: '@IroIro1234work',
+    images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+  },
+  appleWebApp: {
+    capable: true,
+    title: 'いろいろポートフォリオ',
+    statusBarStyle: 'black-translucent'
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
 };
 
 export default function RootLayout({
@@ -20,9 +72,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <head>
+      <head prefix="og: https://ogp.me/ns#">
+        <meta name="date" content="2024-12-01" />
+        <meta name="google" content="nositelinkssearchbox" />
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />
         <link rel="preconnect" href="https://www.youtube.com" />
+        <meta name="language" content="Japanese" />
+        <meta httpEquiv="content-language" content="ja" />
+        <meta name="author" content="茅根啓介" />
+        <meta name="copyright" content="© 2024 Keisuke Chinone" />
+        <meta httpEquiv='x-dns-prefetch-control' content='on' />
+        <meta httpEquiv="Expires" content="604800" />
+        <link rel="me" href="https://mastodon.social/@Iroiro" />
       </head>
       <body>
         <Header />

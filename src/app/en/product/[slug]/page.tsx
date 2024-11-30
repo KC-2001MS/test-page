@@ -4,16 +4,17 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
-type TipsPageProps = {
+type ProductPageProps = {
   params: Promise<{ slug: string; }>;
 };
 
-export default async function TipsPage({ params }: TipsPageProps) {
+// ページのコンポーネント
+export default async function ProductPage({ params }: ProductPageProps) {
   const { slug } = await params
-  const { content } = await getTip(slug);
+  const { content } = await getProduct(slug);
 
   return (
-     <main>
+    <main>
       <div id="maincard">
       <div dangerouslySetInnerHTML={{ __html: content }} />
     </div>
@@ -21,9 +22,9 @@ export default async function TipsPage({ params }: TipsPageProps) {
   );
 }
 
-// Tipsデータを取得
-async function getTip(slug: string) {
-  const filePath = path.join(process.cwd(), "content/tips", `${slug}.md`);
+// 各製品のデータを取得
+async function getProduct(slug: string) {
+  const filePath = path.join(process.cwd(), "en/content/product", `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
   const { content } = matter(fileContents);
@@ -34,11 +35,12 @@ async function getTip(slug: string) {
   };
 }
 
-// 静的パスを生成 (Tips用)
+// 静的パスを生成
 export async function generateStaticParams() {
-  const tipsDir = path.join(process.cwd(), "content/tips");
-  const filenames = fs.readdirSync(tipsDir);
+  const productsDir = path.join(process.cwd(), "en/content/product");
+  const filenames = fs.readdirSync(productsDir);
 
+  // Markdownファイルから `slug` を生成
   return filenames.map((filename) => ({
     slug: filename.replace(/\.md$/, ""),
   }));

@@ -17,7 +17,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">日本企業情報</h4>
-                                <a href="https://apps.apple.com/app/日本法人情報/id6477782786">
+                                <a href="https://apps.apple.com/app/id6477782786">
                                     <Image src={`${PATH}/images/Japan Corp Info.avif`} className="appIcon left" height={100} width={100} alt="日本企業情報アイコン" />
                                 </a>
                             </div>
@@ -62,7 +62,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">麻雀牌コンバータ</h4>
-                                <a href="https://apps.apple.com/app/mahjong-tile-converter/id6470128646">
+                                <a href="https://apps.apple.com/app/id6470128646">
                                     <Image src={`${PATH}/images/Mahjong Tile Converter.avif`} className="appIcon left" height={100} width={100} alt="麻雀牌コンバータアイコン" />
                                 </a>
                             </div>
@@ -95,7 +95,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">My Word X</h4>
-                                <a href="https://apps.apple.com/us/app/my-word-x/id6450119338">
+                                <a href="https://apps.apple.com/app/id6450119338">
                                     <Image src={`${PATH}/images/My Word X.avif`} className="appIcon left" height={100} width={100} alt="My Word Xアイコン" />
                                 </a>
                             </div>
@@ -148,7 +148,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Word Filter X</h4>
-                                <a href="https://apps.apple.com/jp/app/word-filter-x/id1668831130">
+                                <a href="https://apps.apple.com/app/id1668831130">
                                     <Image src={`${PATH}/images/Word Filter X.avif`} className="appIcon left" height={100} width={100} alt="Word Filter Xアイコン" />
                                 </a>
                             </div>
@@ -196,7 +196,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Uncheck X</h4>
-                                <a href="https://apps.apple.com/us/app/uncheck-x/id6446932202">
+                                <a href="https://apps.apple.com/app/id6446932202">
                                     <Image src={`${PATH}/images/Uncheck X.avif`} className="appIcon left" height={100} width={100} alt="Uncheck Xアイコン" />
                                 </a>
 
@@ -250,7 +250,7 @@ export default function Product() {
                         <div className="h4card clear">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Simple Editor X</h4>
-                                <a href="https://apps.apple.com/us/app/simple-editor-x/id1612026794">
+                                <a href="https://apps.apple.com/app/id1612026794">
                                     <Image src={`${PATH}/images/Simple Editor X.avif`} className="appIcon left" height={100} width={100} alt="Simple Editor Xアイコン" />
                                 </a>
                             </div>
@@ -297,7 +297,7 @@ export default function Product() {
                         <div className="h4card">
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Death To _blank</h4>
-                                <a href="https://apps.apple.com/us/app/death-to-blank/id1672080999">
+                                <a href="https://apps.apple.com/app/id1672080999">
                                     <Image src={`${PATH}/images/Death To _blank.avif`} className="appIcon left" height={100} width={100} alt="Death To _blankアイコン" />
                                 </a>
                             </div>

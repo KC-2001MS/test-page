@@ -5,9 +5,7 @@ import { remark } from "remark";
 import html from "remark-html";
 
 type ProductPageProps = {
-  params: Promise<{
-    slug: string;
-  }>;
+  params: Promise<{ slug: string; }>;
 };
 
 // ページのコンポーネント
