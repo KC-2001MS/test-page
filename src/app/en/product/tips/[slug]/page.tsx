@@ -23,7 +23,7 @@ export default async function TipsPage({ params }: TipsPageProps) {
 
 // Tipsデータを取得
 async function getTip(slug: string) {
-  const filePath = path.join(process.cwd(), "en/content/tips", `${slug}.md`);
+  const filePath = path.join(process.cwd(), "content/en/tips", `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
   const { content } = matter(fileContents);
@@ -36,7 +36,7 @@ async function getTip(slug: string) {
 
 // 静的パスを生成 (Tips用)
 export async function generateStaticParams() {
-  const tipsDir = path.join(process.cwd(), "en/content/tips");
+  const tipsDir = path.join(process.cwd(), "content/en/tips");
   const filenames = fs.readdirSync(tipsDir);
 
   return filenames.map((filename) => ({

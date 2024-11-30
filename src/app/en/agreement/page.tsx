@@ -5,15 +5,15 @@ export default function Home() {
                 <div className="h2card">
                     <h2 className="n5">Terms of Use</h2>
                     <p>
-                        These terms and conditions of use (hereinafter referred to as "Terms and Conditions") shall be
+                        These terms and conditions of use (hereinafter referred to as &quot;Terms and Conditions&quot;) shall be
                         governed by and construed in accordance with the laws of Japan. This Terms of Use (hereinafter
-                        referred to as the "Terms of Use") applies to the services provided by Keisuke Chinone (activity
-                        name: Iroiro) (hereinafter referred to as the "Company") (activity name: Various) (hereinafter
-                        referred to as the "Company") provides on the application or website (hereinafter referred to as the
-                        "Service"). This document sets forth the terms and conditions of use of the services provided by
-                        Keisuke Kayanne (activity name: Various) (hereinafter referred to as the "Company") on the
-                        application or website (hereinafter referred to as the "Service"). Users (hereinafter referred to as
-                        "Users") are requested to comply with these Terms of Use. Users are requested to use the Service in
+                        referred to as the &quot;Terms of Use&quot;) applies to the services provided by Keisuke Chinone (activity
+                        name: Iroiro) (hereinafter referred to as the &quot;Company&quot;) (activity name: Various) (hereinafter
+                        referred to as the &quot;Company&quot;) provides on the application or website (hereinafter referred to as the
+                            &quot;Service&quot;). This document sets forth the terms and conditions of use of the services provided by
+                        Keisuke Kayanne (activity name: Various) (hereinafter referred to as the &quot;Company&quot;) on the
+                        application or website (hereinafter referred to as the &quot;Service&quot;). Users (hereinafter referred to as
+                            &quot;Users&quot;) are requested to comply with these Terms of Use. Users are requested to use the Service in
                         accordance with these Terms of Use.
                     </p>
                     <div className="h3card">
@@ -21,9 +21,9 @@ export default function Home() {
                         <p>1. These Terms of Use shall apply to all relationships between the user and SBM concerning the
                             use of the Service.</p>
                         <p>2. In addition to the Terms of Service, the Company may stipulate various rules regarding the use
-                            of the Service (hereinafter referred to as "Individual Regulations"). In addition to these Terms
+                            of the Service (hereinafter referred to as &quot;Individual Regulations&quot;). In addition to these Terms
                             of Use, the Company may also make various provisions regarding the use of the Service
-                            (hereinafter referred to as "Individual Regulations"). Regardless of the name of these
+                            (hereinafter referred to as &quot;Individual Regulations&quot;). Regardless of the name of these
                             Individual Regulations, they shall constitute a part of these Terms of Use.</p>
                         <p>3. In the event of any inconsistency between the provisions of these Terms and Conditions and the
                             individual provisions of the preceding Article, the provisions of the individual provisions
@@ -53,7 +53,7 @@ export default function Home() {
                             <li>Acts that cause disadvantage, damage, or discomfort to other users of this service or other
                                 third parties</li>
                             <li>Acts of providing benefits directly or indirectly to antisocial forces in relation to the
-                                Company's services</li>
+                                Company&apos;s services</li>
                             <li>Other actions that the Company deems inappropriate.</li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@ export default function Home() {
                     </div>
                     <div className="h3card">
                         <h3>Restrictions on Use and Cancellation of Registration</h3>
-                        <p>Our company may restrict a user from using all or part of the Service or terminate the user's
+                        <p>Our company may restrict a user from using all or part of the Service or terminate the user&apos;s
                             registration as a user without prior notice if the user falls into any of the following
                             categories and the app is a service that requires the implementation of blocks stipulated in the
                             App Store Guidelines.</p>
@@ -139,7 +139,7 @@ export default function Home() {
                     <div className="h3card">
                         <h3>Handling of Personal Information</h3>
                         <p>The Company shall appropriately handle personal information obtained through the use of the
-                            Service in accordance with the Company's "<a href="./privacy.html">Privacy Policy</a>".</p>
+                            Service in accordance with the Company&apos;s &quot;<a href="./privacy.html">Privacy Policy</a>&quot;.</p>
                     </div>
                     <div className="h3card">
                         <h3>Prohibition of transfer of rights and obligations</h3>
@@ -152,7 +152,7 @@ export default function Home() {
                         <p>1. These Terms and Conditions shall be governed by and construed in accordance with the laws of
                             Japan.</p>
                         <p>2. In the event of any dispute concerning the Service, the court having jurisdiction over the
-                            location of the Company's head office shall have exclusive jurisdiction.</p>
+                            location of the Company&apos;s head office shall have exclusive jurisdiction.</p>
                         <p>3. The English version of this consent document is a machine-translated version of the Japanese
                             version, and the translation may not be accurate. Please note that the Japanese version is only
                             the original.</p>

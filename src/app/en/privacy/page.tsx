@@ -37,7 +37,7 @@ export default function Contact() {
                             <p>
                                 By analyzing how the application is being used and what kind of customers are using it, we
                                 can suggest content and behavior that customers are looking for.</p>
-                            <p>Although not employed in Iroiro's service, another method is to place advertisements.
+                            <p>Although not employed in Iroiro&apos;s service, another method is to place advertisements.
                             </p>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export default function Contact() {
                     </div>
                     <div className="h3card">
                         <h3>Information to be obtained by the service</h3>
-                        <p>Iroiro's app does not collect any information. However, we do use App Analytics to collect the
+                        <p>Iroiro&apos;s app does not collect any information. However, we do use App Analytics to collect the
                             following information on the App Store; please check with Apple regarding App Store privacy.</p>
                         <ul>
                             <li>App access status</li>
@@ -68,7 +68,7 @@ export default function Contact() {
                             <li>Other information that can be obtained from the App Store (not including personal
                                 information)</li>
                         </ul>
-                        <p>Iroiro's website uses Google Analytics and Google Search Console to obtain the following
+                        <p>Iroiro&apos;s website uses Google Analytics and Google Search Console to obtain the following
                             information</p>
                         <ul>
                             <li>Information about access to this web service</li>
@@ -80,7 +80,7 @@ export default function Contact() {
                     <div className="h3card">
                         <h3>Information not obtained by the service</h3>
                         <p>
-                            Iroiro's services do not collect any information other than the above. We do not collect any
+                            Iroiro&apos;s services do not collect any information other than the above. We do not collect any
                             personal information.</p>
                         <p>However, if the app uses a third party service, the third party service may collect
                             information. Currently, we do not have any such apps, but if we do, we will post a notice on

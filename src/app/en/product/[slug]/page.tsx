@@ -24,7 +24,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
 // 各製品のデータを取得
 async function getProduct(slug: string) {
-  const filePath = path.join(process.cwd(), "en/content/product", `${slug}.md`);
+  const filePath = path.join(process.cwd(), "content/en/product", `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
   const { content } = matter(fileContents);
@@ -37,7 +37,7 @@ async function getProduct(slug: string) {
 
 // 静的パスを生成
 export async function generateStaticParams() {
-  const productsDir = path.join(process.cwd(), "en/content/product");
+  const productsDir = path.join(process.cwd(), "content/en/product");
   const filenames = fs.readdirSync(productsDir);
 
   // Markdownファイルから `slug` を生成

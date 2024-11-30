@@ -9,7 +9,7 @@ export default function Contact() {
                     <div className="h3card">
                         <h3>Keisuke Chinone</h3>
                         <p>
-                            I work under the account name "Iroiro." My main focus is on developing applications in SwiftUI
+                            I work under the account name &quot;Iroiro.&quot; My main focus is on developing applications in SwiftUI
                             and creating apps for my needs. I am also
                             in contact with other developers to improve and port their apps.
                         </p>

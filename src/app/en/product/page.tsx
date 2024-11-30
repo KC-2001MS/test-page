@@ -1,5 +1,4 @@
 import Image from "next/image";
-import YouTubeEmbed from '@/components/YouTubeEmbed';
 import AppStoreLink from '@/components/AppStoreLink';
 import "@styles/content.css";
 import "@styles/product.css";
@@ -99,11 +98,11 @@ export default function Product() {
                                 </a>
                             </div>
                             <div className="clear">
-                                <p><strong>Word Filter X</strong> is an application that hides words you don't like on Safari
+                                <p><strong>Word Filter X</strong> is an application that hides words you don&apos;t like on Safari
                                     websites.By hiding the words that you have difficulty with on Safari, you can put your own
                                     mind at ease.</p>
-                                <p>This app is a derivative of the browser extension and iOS app "<a
-                                    href="https://bondavi.jp">Hiyoko Filter(Support for Japanese language only)</a>" with
+                                <p>This app is a derivative of the browser extension and iOS app &quot;<a
+                                    href="https://bondavi.jp">Hiyoko Filter(Support for Japanese language only)</a>&quot; with
                                     additional features such as the ability to sync settings and change the words to be
                                     replaced.</p>
                                 <p>Supported platforms are as follows</p>
@@ -237,12 +236,12 @@ export default function Product() {
                             </div>
                             <p className="clear">
                                 Have you ever clicked on a link and had it open a new tab? This is often caused by links
-                                using the 'target=_blank' attribute. Death To _blank fixes this problem by removing the
-                                '_blank' attribute from links, meaning that most links will open in the current tab.</p>
-                            <p>This extension is a port of 'Death To _blank' for Chrome, and has been developed in
+                                using the &apos;target=_blank&apos; attribute. Death To _blank fixes this problem by removing the
+                                &apos;_blank&apos; attribute from links, meaning that most links will open in the current tab.</p>
+                            <p>This extension is a port of &apos;Death To _blank&apos; for Chrome, and has been developed in
                                 collaboration with its author.</p>
-                            <p>'Death To _blank' also removes a few other 'target' values that can cause links to open
-                                in new pages (e.g. "blank" and "new").</p>
+                            <p>&apos;Death To _blank&apos; also removes a few other &apos;target&apos; values that can cause links to open
+                                in new pages (e.g. &quot;blank&quot; and &quot;new&quot;).</p>
                             <p>Supported platforms are as follows
                             </p>
                             <h4>Supported platforms</h4>
@@ -391,7 +390,7 @@ export default function Product() {
                 <div className="h2card clear">
                     <h2 className="n3">Website</h2>
                     <div className="h3card">
-                        <h3>Iroiro's portfolio</h3>
+                        <h3>Iroiro&apos;s portfolio</h3>
                         <p>
                             This is the homepage. The purpose of this site is to introduce and support the services we have
                             made available to the public.</p>
