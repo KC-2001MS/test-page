@@ -5,34 +5,34 @@ description: "My Word Xは、オリジナルな単語帳を作成するアプリ
 
 # My Word X
 
-My Word Xは、オリジナルな単語帳を作成するアプリケーションです。様々な情報を登録できるため、より詳しくその単語を覚えることができます。
+My Word X is an application to create an original word book. You can register various information so that you can memorize the word in more detail.
 
-My Word Xには以下の特徴があります。
-- 単語情報の保存機能
-- お気に入り
-- 編集のロック
-- 非表示
-- ライブアクティビティによる閲覧状況と編集状況の表示
-- ショートカットアプリから単語を登録
-- キーボードショートカット(iPadOS・macOSのみ)
-- ウィジェットで今日の単語を表示
+My Word X has the following features
+- Ability to save word information
+- Favorite
+- Edit Lock
+- Hidden
+- Viewing and editing status with Live Activity
+- Register words from the Shortcut App
+- Keyboard shortcuts (iPadOS and macOS only)
+- Widget displays word of the day
 
-また、単語情報には以下の内容を登録でき、わかりやすくまとめることができます。
+In addition, the following information can be registered in the word information and summarized in an easy-to-understand manner.
 
-- 単語
-- 読み
-- 参考写真
-- 重要度
-- タグ
-- 参考にしたページのURL
-- お気に入り
-- 編集のロック
-- 非表示
-- 意味
-- 例
+- Word
+- Pronunciation
+- Reference Photo
+- Priority
+- Tags
+- URL
+- Favorite
+- Edit Lock
+- Hidden
+- Meaning
+- Example
 
-対応プラットフォーム
-| OS | バージョン |
+Supported Platforms
+| OS | Version |
 | ---- | ---- |
 | iOS | 17 ~ |
 | iPadOS | 17 ~ |
@@ -41,19 +41,19 @@ My Word Xには以下の特徴があります。
 | watchOS | 10 ~ |
 | tvOS | 17 ~ |
 
-プライバシーポリシー
-詳細は[プライバシーポリシー](/privacy)をご覧ください。
+Privacy Policy
+Please see our [Privacy Policy](/en/privacy) for more details.
 
-## 単語の追加
-ツールバーのプラスアイコンをクリック  
-ツールバー上にプラスアイコンがあります。このアイコンをクリックすることで単語追加画面に遷移できます。
+## Add a word
+### Click the plus icon on the toolbar
+There is a plus icon on the toolbar. Clicking this icon will take you to the Add Word screen.
 
-## Siriとショートカット
-ショートカットアプリのショートカットにMy Word Xのアクションを追加することで、効率的なワークフローを実現できます。
-### SiriからMy Word Xに単語を登録
-以下の言葉で単語を追加するアクションを開始できます。  
-「My Word Xに単語を追加」
-### ショートカットアプリにMy Word Xアクションを追加
-1. ショートカットアプリから新しいショートカットを追加します。
-2. My Word Xのアクションから、ショートカットに追加したいアクションを選択してドラックアンドドロップで追加します。
-3. アクションに設定項目がある場合は、タップして項目を選びます。
+## Siri and Shortcuts
+Adding My Word X actions to shortcut app shortcuts allows for a more efficient workflow.
+### Register words from Siri to My Word X
+You can initiate an action to add a word with the following words
+"Add a word to My Word X."
+### Add My Word X action to the Shortcut App
+1. Add a new shortcut from the shortcut application.
+2. From Actions in My Word X, select the action you want to add to the shortcut and add it by drag-and-drop.
+3. If the action has a setting item, tap to select the item.

@@ -5,48 +5,46 @@ description: "Uncheck XはSafari拡張機能です。Webサイト上のデフォ
 
 # Uncheck X
 
-物を買うときやあるサービスのアカウントを作るとき、自分が同意していない項目に勝手にチェックがつけられていたことはありませんか。
-Uncheck Xは、Webサイト上のデフォルトで選択状態となっているチェックボックスやラジオボタンを非選択状態に戻します。そのため、勝手に付けられたチェックを外す手間を削減できます。
-もう、いつの間にかメールマガジンが送られることはありません。
+Have you ever checked items that you did not agree to when buying something or creating an account for a service?
+Uncheck X returns checkboxes and radio buttons that are selected by default on a Web site to the deselected state. This reduces the need to uncheck checkboxes and radio buttons that have been added without your permission.
+You will no longer receive the newsletter any time soon.
 
-Uncheck Xには以下の特徴があります。
+This extension has the following features
 
-- Safariのチェックボックスをデフォルトでオフに
-- ツールバーから簡単に拡張機能をオン・オフ
-- ショートカットアプリに対応し、アクションを設定
-- Siriから拡張機能をオン・オフ
+- Checkboxes are turned off by default on Safari
+- Easily turn extensions on and off from the toolbar
+- Supports shortcut applications and actions can be set
+- Turn extensions on and off from Siri
 
-対応プラットフォーム
-| OS | バージョン |
+Supported Platforms
+| OS | Version |
 | ---- | ---- |
 | iOS | 17 ~ |
 | iPadOS | 17 ~ |
 | visionOS | 1 ~ |
 | macOS | 14(Sonoma) ~ |
 
-プライバシーポリシー
-詳細は[プライバシーポリシー](/privacy)をご覧ください。
+Privacy Policy
+Please see our [Privacy Policy](/en/privacy) for more details.
 
-## 有効化と設定の方法
-[Safari拡張機能の有効化と設定の方法](/product/tips/safari_settings)をご覧ください。
+## How to Activate and Configure
+See [how to activate and configure Safari extensions](/en/product/tips/safari_settings).
 
-## ツールバーのボタン
-ツールバーのボタンをクリックまたはタップすることによって、Uncheck X拡張機能をオン・オフできます。入力フォームでもUncheck Xは動作しますので、その際にご利用ください。
-ツールバーのアイコンをクリックする
-Safariのツールバー上にアイコンがあります。このアイコンをクリックすることでこの拡張機能をオン・オフにできます。
-ツールバーボタンの表示と拡張機能の状態
-拡張機能がオンの場合は、ドーナッツ型のアイコンが表示されます。拡張機能がオフの場合は、円形のアイコンが表示されます。
+## Toolbar Buttons
+You can turn the Uncheck X extension on and off by clicking or tapping the button on the toolbar. Uncheck X also works with input forms, so please use it for that purpose.
+### Click the icon on the toolbar
+There is an icon on the Safari toolbar. You can turn this extension on and off by clicking on this icon.
+### Toolbar button display and extension status
+If the extension is on, a doughnut-shaped icon is displayed. If the extension is off, a circular icon is displayed.
 
-## Siriとショートカット
-ショートカットアプリのショートカットにUncheck Xのアクションを追加することで、効率的なワークフローを実現できます。
-また、Siriに話しかけることでUncheck X拡張機能をオン・オフすることもできます。
-SiriからUncheck X拡張機能をオン・オフ
-
-以下の言葉でオン・オフができます。
-- 「Uncheck Xをオフにして」
-- 「Uncheck Xをオンにして」
-ショートカットアプリにUncheck Xアクションを追加
-
-1. ショートカットアプリから新しいショートカットを追加します。
-2. Uncheck Xのアクションから、ショートカットに追加したいアクションを選択してドラックアンドドロップで追加します。
-3. アクションに設定項目がある場合は、タップして項目を選びます。
+## Siri and Shortcuts
+Adding Uncheck X actions to shortcut app shortcuts allows for a more efficient workflow.
+You can also turn the Uncheck X extension on and off by talking to Siri.
+### Turn on/off Uncheck X extension from Siri
+It can be turned on and off with the following words
+- "Turn off Uncheck X"
+- "Turn on Uncheck X"
+### Add Uncheck X action to shortcut app
+1. Add a new shortcut from the shortcut application.
+2. From Actions in Uncheck X, select the action you wish to add to the shortcut and add it by drag-and-drop.
+3. If the action has a setting item, tap to select the item.

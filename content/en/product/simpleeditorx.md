@@ -4,47 +4,46 @@ description: "Simple Editor Xは、テキストファイルとして保存する
 ---
 
 # Simple Editor X
+Simple Editor X is a simple notepad and text editor that can be saved as a text file. It can count the number of characters, words, sentences, and paragraphs, and can read out sentences.
 
-Simple Editor Xは、テキストファイルとして保存することができるシンプルなメモ帳・テキストエディタです。文字数・単語数・文章数・段落数をカウントでき、文章を読み上げることができます。
+Simple Editor X has the following features
+1. Read-out function
+This notepad has a function that reads out the text you have entered, allowing you to check for any unnatural points in the text. The text-to-speech function supports 64 languages, including Japanese, English (U.S.), and French (France), and the language can be changed in the settings.
+(However, it is only a function to read out txt files, so it is not possible to make kanji read in a different way.)
+2. Text language and emotion detection
+It analyzes the text and identifies the language. If the text is in English, the machine learning will also use a numerical value between -1 and 1 to represent the emotion.
+3. Synchronization by iCloud
+This feature allows you to sync your settings and text files with the Simple Editor X app on other devices. This feature eliminates the need to customize settings multiple times.
+4. Display text information
+It can display the number of characters or words in a text, the number of sentences or paragraphs. It can also display the size of the dext.
+5. Insert canned text
+Registered text can be inserted.
 
-Simple Editor Xには、以下の機能があります。
-1. 読み上げ機能
-このメモ帳には入力したテキストを読み上げる機能がついており、これによって文章に不自然な点がないか確認できます。読み上げ機能は、日本語・英語(米国)・フランス語（フランス）を含む64言語に対応しており、設定で読み上げる言語を変更できます。
-（ただし、あくまでtxtファイルを読み上げる機能のため、漢字に別の読み方をさせることはできません。）
-2. テキストの言語と感情の検知
-テキストを分析し、言語を特定します。また、テキストが英語の場合には、機械学習で感情を-1から1の間の数値で表します。
-3. iCloudによる同期
-この機能により、他のデバイスのSimple Editor Xアプリと設定やテキストファイルを同期できます。この機能により、設定を何度もカスタマイズする必要はありません。
-4. テキストの情報を表示
-テキストの文字数や単語数、文章の数や段落の数を表示することができます。また、デキストのサイズも表示することができます。
-5. 定型文を挿入
-登録したテキストを挿入することができます。
+*Please refer to the terms and conditions of Apple's operating system for handling audio files produced with this application.
 
-※このアプリケーションで制作した音声ファイルの扱いは、AppleのOSの規約にてご確認ください。
-
-対応プラットフォーム
-| OS | バージョン |
+Supported Platforms
+| OS | Version |
 | ---- | ---- |
 | iOS | 17 ~ |
 | iPadOS | 17 ~ |
 | visionOS | 1 ~ |
 | macOS | 14(Sonoma) ~ |
 
-プライバシーポリシー
-詳細は[プライバシーポリシー](/privacy)をご覧ください。
+Privacy Policy
+Please see our [Privacy Policy](/en/privacy) for more details.
 
-## 定型文の追加
-1. 設定画面を開く
-メニューバー上にある「設定」から設定画面を開きます。
-2. 定型文タグを開く
-3. 「追加」ボタンを押下する
+## Add canned text
+1. Open the settings screen
+Open the settings screen from "Settings" on the menu bar.
+2. Open a canned tag
+3. Press the "Add" button.
 
-## Siriとショートカット
-ショートカットアプリのショートカットにSimple Editor Xのアクションを追加することで、効率的なワークフローを実現できます。
-SiriからSimple Editor Xに定型文を登録
-以下の言葉で単語を追加するアクションを開始できます。
-- 「Simple Editor Xに定型文を追加」
-ショートカットアプリにSimple Editor Xアクションを追加
-1. ショートカットアプリから新しいショートカットを追加します。
-2. Simple Editor Xのアクションから、ショートカットに追加したいアクションを選択してドラックアンドドロップで追加します。
-3. アクションに設定項目がある場合は、タップして項目を選びます。
+## Siri and Shortcuts
+Adding Simple Editor X actions to shortcut app shortcuts allows for a more efficient workflow.
+### Register canned text from Siri to Simple Editor X
+You can initiate an action to add a word with the following words
+- "Add template to Simple Editor X."
+### Add Simple Editor X action to shortcut app
+1. Add a new shortcut from the shortcut application.
+2. From Actions in Simple Editor X, select the action you wish to add to the shortcut and add it by drag-and-drop.
+3. If the action has a setting item, tap to select the item.

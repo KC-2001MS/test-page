@@ -4,30 +4,32 @@ description: "Safari拡張機能を有効化する方法や設定のマニュア
 ---
 
 
-# Safari拡張機能の有効化と設定の方法
+# How to Activate and Configure Safari Extensions
 
 Safari拡張機能を使い始めるのに必要な操作を説明します。
 
-## 有効化
-1. Safari拡張機能を使い始めるのに必要な操作を説明します。
-   Safariの設定を開き、拡張機能画面もしくは拡張機能タブに遷移します。
-2. 拡張機能をオン
-   拡張機能画面もしくは拡張機能タブにある対象の拡張機能の項目をオンにします。
-3. アクセスを許可
-   アクセス権の項目から、「すべてのWebサイト」または「その他のWebサイト」のアクセスを許可します。
+## Validation
 
-## プライベートブラウズ設定
-（iOS17・iPadOS17・macOS14から）プライベートブラウズでこの拡張機能を動作させない設定が可能です。お好みに応じて設定ください。
-1. Safariの設定を起動
-   Safariの設定を開き、各々の拡張機能の設定画面へ移動します。
-2. プライベートブラウズで許可
-   「プライベートブラウズ」または「プライベートブラウズで許可」ボタンを押下します。
+1. Launch Safari settings
+　　Open Safari Settings and go to the Extensions screen or Extensions tab.
+2. Turn on extensions
+　　Turn on the target extension item on the Extensions screen or Extensions tab.
+3. Allow access
+　　From the Access Rights section, grant access to "All Web Sites" or "Other Web Sites".
 
-## プロファイル設定
-（iOS17・iPadOS17・macOS14から）各々のプロファイルでこの拡張機能を動作させない設定が可能です。お好みに応じて設定ください。
-1. Safariの設定を起動
-   Safariの設定を開き、プロファイル画面もしくはプロファイルタブに遷移します。
-2. プロファイルを選択
-   プロファイルを選択して、そのプロファイルの設定に移動します。
-3. 動作させる拡張機能を選択
-   「拡張機能を管理」または「拡張機能」ボタンを押下して、このプロファイルで動作させたい拡張機能を選択します。
+## Private Browse Settings
+
+(iOS17･iPadOS17･macOS14 Only) You can configure not to run this extension in Private Browsing. Please set according to your preference.
+1. Launch Safari settings
+　　Open Safari's settings and go to the settings screen for each extension.
+2. Private Browsing Allowed
+　　Press the "Private Browse" or "Allow with Private Browsing" button.
+
+## Profile Settings
+(iOS17･iPadOS17･macOS14 Only) Each profile can be configured to disable this extension. Please set according to your preference.
+1. Launch Safari settings
+　　Open Safari Settings and go to the Profile screen or Profile tab.
+2. Select profile
+　　Select a profile and go to the settings for that profile.
+3. Select extensions to run
+　　Press the "Manage Extensions" or "Extensions" button and select the extensions you want to work with this profile.

@@ -4,24 +4,33 @@ description: "Death To _blankのSafari拡張機能版のサポートページで
 ---
 
 # Death To _blank
+Have you ever clicked on a link and experienced an increase in tabs? By removing the _blank attribute, which causes links to open in a new tab, from your website, you can eliminate this phenomenon and clean up your tabs.
+This extension is a ported version of the "Death To _blank" extension as a Safari extension. The code of this extension is used under agreement with the developer.
+※ Attributes other than _blank, which has the effect of opening a new tab, will also work.
 
-リンクをクリックしたらタブが増えた経験はありませんか。リンクを新規タブで開く原因である_blank属性をWebサイトから取り除くことで、この現象を無くしてタブをスッキリさせます。
-この拡張機能は、"Death To _blank"拡張機能をSafari拡張機能として移植したバージョンとなります。この拡張機能のコードは、開発者との合意に基づいて利用されています。
-※ 新規タブを開く効果がある_blank以外の属性でも動作します。
+This extension has the following features
+- Prevent tabs from increasing automatically on Safari
+- Easily turn extensions on and off from the toolbar
+- Support shortcut apps and set actions
+- Turn extensions on and off from Siri
 
-この拡張機能には以下の特徴があります。
-- Safari上でタブが自動で増えないようにする
-- ツールバーから簡単に拡張機能をオン・オフ
-- ショートカットアプリに対応し、アクションを設定
-- Siriから拡張機能をオン・オフ
-
-対応プラットフォーム
-| OS | バージョン |
+Supported Platforms
+| OS | Version |
 | ---- | ---- |
 | iOS | 17 ~ |
 | iPadOS | 17 ~ |
 | visionOS | 1 ~ |
 | macOS | 14(Sonoma) ~ |
 
-プライバシーポリシー
-詳細は[プライバシーポリシー](/privacy)をご覧ください。
+Privacy Policy
+Please see our [Privacy Policy](/en/privacy) for more details.
+
+## How to Activate and Configure
+See [how to activate and configure Safari extensions](/en/product/tips/safari_settings).
+
+## Toolbar Buttons
+You can temporarily disable the extension by clicking or tapping the button on the toolbar.
+### Click the icon on the toolbar
+There is an icon on the Safari toolbar. You can turn this extension on and off by clicking on this icon.
+### Toolbar button display and extension status
+If the extension is on, a skull mark icon is displayed. If the extension is off, an icon with a prohibition mark is displayed above the skull mark.

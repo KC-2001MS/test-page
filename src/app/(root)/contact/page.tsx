@@ -1,4 +1,69 @@
+import type { Metadata } from "next";
 import "@styles/content.css";
+
+export const metadata: Metadata = {
+    title: "いろいろへのお問い合わせ",
+  description:
+    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスについてのお問い合わせ先です。",
+  abstract:
+    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスについてのお問い合わせ先です。",
+    applicationName: 'いろいろポートフォリオ',
+    authors: [
+      {
+        name: '茅根啓介',
+        url: 'https://iroiro.dev',
+      },
+    ],
+    creator: "茅根啓介",
+    publisher: "茅根啓介",
+    generator: 'Next.js',
+    keywords: ["SwiftUI", "茅根啓介"],
+    // 
+    robots: {
+      index: false,
+      follow: false,
+    },
+    alternates: {
+        canonical: "https://iroiro.dev/contact",
+        languages: {
+          ja: "https://iroiro.dev/contact",
+          en: "https://iroiro.dev/en/contact",
+        },
+    },
+    icons: [
+      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+    ],
+    openGraph: {
+        type: "article",
+        url: "https://iroiro.dev/contact",
+        title: "いろいろへのお問い合わせ",
+        description:
+          "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスについてのお問い合わせ先です。",
+        siteName: "【いろいろ】お問い合わせ",
+      images: [
+        {
+          url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@IroIro1234work',
+      creator: '@IroIro1234work',
+      images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+    },
+    appleWebApp: {
+      capable: true,
+      title: 'いろいろポートフォリオ',
+      statusBarStyle: 'black-translucent'
+    },
+    formatDetection: {
+      telephone: false,
+      email: false,
+      address: false,
+    },
+  };
 
 export default function Contact() {
     return (

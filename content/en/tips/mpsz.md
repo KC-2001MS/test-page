@@ -3,28 +3,30 @@ title: "麻雀の牌姿を表現するMPSZ形式とは"
 description: "麻雀の牌姿を表現するMPSZ形式とは、どのような表記方法なのか説明します。"
 ---
 
-# 麻雀の牌姿を表現するMPSZ形式
+# MPSZ format for representing mahjong tiles
 
-MPSZ形式は日本の麻雀において、牌姿を表現する際に使用される標準的な表現形式です。以下のルールに従って牌姿を表現します。
-- 牌番号(0~9)と牌種記号(m,p,s,z)を組み合わせたMPSZ形式牌記号で牌を表現できます
-  例）1m = 🀇
-- 任意の個数だけMPSZ形式牌記号を並べられます
-  例）1m2m3m1s2s3s7s8s9s1p2p3p9p9p
-- 同じ牌種記号のMPSZ形式牌記号が続く場合、下記のように牌種記号を省略できます
-  例）1z1m2m3m1z -> 1z123m1z
-- MPSZ形式牌記号の前にrをつけることで、赤牌を表現できます
-  例）r5m = 🀋
-- 1文字で表せるMPSZ形式牌記号-が存在し、牌の裏側🀫を表せます
-MPSZ形式牌記号の割り当てについては、下記で確認できます。
+The MPSZ format is the standard format used in Japanese mahjong to represent the appearance of tiles. The following rules are used to represent the tiles.
+- Tiles are represented by MPSZ style tile symbols, which are a combination of tile numbers (0~9) and tile type symbols (m,p,s,z).
+  Example）1m = 🀇
 
-## MPSZ形式牌記号と牌の割り当て
-以下の割り当てに従って、牌姿を表現します。  
+- Any number of MPSZ format tile symbols can be lined up
+  Example）1m2m3m1s2s3s7s8s9s1p2p3p9p9p
+
+- When followed by MPSZ style tile symbols of the same tile type, all the tile type symbols of the same type on the left side can be omitted
+  Example）1z1m2m3m1z -> 1z123m1z
+- Red tiles can be represented by adding an "r" in front of the MPSZ format tile symbol
+  Example）r5m = 🀋
+- There exists an MPSZ-style tile symbol - which can be represented by a single letter and represents the back side of the tile 🀫.
+The MPSZ format tile symbol assignments can be found below.
+
+## MPSZ format tile symbols and tile assignments
+The tiles are represented according to the following assignments.
 | MPSZ形式牌記号 | 割り当て |
 | ---- | ---- |
 | MPSZ形式牌記号 | 割り当て |
 
-## MPSZ形式から牌姿への変換ツール
-### [麻雀牌コンバータ](https://apps.apple.com/app/id6470128646)
-MPSZ形式からUnicodeを用いたグラフィカルな牌姿を復元するmacOSのメニューバーアプリケーションです。Unicodeのためコピーアンドペーストが自由自在で作成した牌姿の履歴も確認できます。また、MPSZ形式以外での記法でも変換が可能です。
-### [【麻雀】JavascriptでMPSZ形式牌記号を牌姿に復元するプログラムを作る](https://mahjong.org/program_018/)
-「【麻雀】JavascriptでMPSZ形式牌記号を牌姿に復元するプログラムを作る」はMPSZ形式からグラフィカルな牌姿を復元するWebアプリケーションです。
+## MPSZ format to tile conversion tool
+### [Mahjong Tile Converter](https://apps.apple.com/app/id6470128646)
+This is a macOS-only menu bar application for restoring graphical tiles from MPSZ format using Unicode, which can be freely copied and pasted and the history of created tiles can be checked. It is also possible to convert to any notation other than MPSZ format.
+### [[Mahjong] Creating a program to restore MPSZ format tile symbols to tile form using Javascript.](https://mahjong.org/program_018/)
+"[Mahjong] Creating a Javascript Program to Restore MPSZ Tile Symbols to Tile Forms" is a web application that restores graphical tile forms from MPSZ format.

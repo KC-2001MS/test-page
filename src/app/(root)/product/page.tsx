@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import AppStoreLink from '@/components/AppStoreLink';
@@ -5,6 +6,70 @@ import "@styles/content.css";
 import "@styles/product.css";
 
 const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
+
+export const metadata: Metadata = {
+    title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
+  description:
+    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
+  abstract:
+    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスの詳細ページです。",
+  applicationName: "いろいろポートフォリオ",
+  authors: [
+    {
+      name: "茅根啓介",
+      url: "https://iroiro.dev",
+    },
+  ],
+  creator: "茅根啓介",
+  publisher: "茅根啓介",
+  generator: "Next.js",
+  keywords: ["SwiftUI", "茅根啓介"],
+    // このデータは、テストが完了したら反転させる。
+    robots: {
+      index: false,
+      follow: false,
+    },
+    alternates: {
+        canonical: "https://iroiro.dev/product",
+        languages: {
+          ja: "https://iroiro.dev/product",
+          en: "https://iroiro.dev/en/product",
+        },
+      },
+    icons: [
+      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+    ],
+    openGraph: {
+        type: "article",
+    url: "https://iroiro.dev/product",
+    title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
+    description:
+      "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
+    siteName: "いろいろのアプリ・プロジェクト・サービス",
+        images: [
+          {
+            url: "https://iroiro.dev/images/出雲大社1080.jpg",
+          },
+        ],
+      },
+      twitter: {
+        card: "summary",
+        site: "@IroIro1234work",
+        creator: "@IroIro1234work",
+        images: "https://iroiro.dev/images/出雲大社1080.jpg",
+      },
+      appleWebApp: {
+        capable: true,
+        title: "いろいろポートフォリオ", // アプリ名は変えない
+        statusBarStyle: "black-translucent",
+      },
+      formatDetection: {
+        telephone: false,
+        email: false,
+        address: false,
+      },
+  };
 
 export default function Product() {
     return (

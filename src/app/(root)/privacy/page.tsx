@@ -1,4 +1,69 @@
+import type { Metadata } from "next";
 import "@styles/content.css";
+
+export const metadata: Metadata = {
+    title: "プライバシーポリシー",
+  description:
+    "茅根啓介（活動名：いろいろ）の展開する全てのサービスに関するプライバシーポリシーです。",
+  abstract:
+    "茅根啓介（活動名：いろいろ）の展開する全てのサービスに関するプライバシーポリシーです。",
+  applicationName: "いろいろポートフォリオ",
+  authors: [
+    {
+      name: "茅根啓介",
+      url: "https://iroiro.dev",
+    },
+  ],
+  creator: "茅根啓介",
+  publisher: "茅根啓介",
+  generator: "Next.js",
+  keywords: ["プライバシーポリシー", "茅根啓介"],
+    // このデータは、テストが完了したら反転させる。
+    robots: {
+      index: false,
+      follow: false,
+    },
+    alternates: {
+        canonical: "https://iroiro.dev/privacy",
+        languages: {
+          ja: "https://iroiro.dev/privacy",
+          en: "https://iroiro.dev/en/privacy",
+        },
+      },
+    icons: [
+      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+    ],
+    openGraph: {
+        type: "article",
+        url: "https://iroiro.dev/privacy",
+        title: "プライバシーポリシー",
+        description:
+          "茅根啓介（活動名：いろいろ）の展開する全てのサービスに関するプライバシーポリシーです。",
+        siteName: "プライバシーポリシー",
+        images: [
+          {
+            url: "https://iroiro.dev/images/出雲大社1080.jpg",
+          },
+        ],
+      },
+      twitter: {
+        card: "summary",
+        site: "@IroIro1234work",
+        creator: "@IroIro1234work",
+        images: "https://iroiro.dev/images/出雲大社1080.jpg",
+      },
+      appleWebApp: {
+        capable: true,
+        title: "いろいろポートフォリオ", // アプリ名は変えない
+        statusBarStyle: "black-translucent",
+      },
+      formatDetection: {
+        telephone: false,
+        email: false,
+        address: false,
+      },
+  };
 
 export default function Contact() {
     return (
