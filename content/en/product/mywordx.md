@@ -2,7 +2,7 @@
 title: "More about My Word X and how to use it"
 description: "My Word X is an application for creating your own vocabulary book. You can register various information so that you can memorize the word in more detail."
 keywords: ["My", "Word"]
-appId: "id6450119338"
+appId: "6450119338"
 ---
 
 # My Word X

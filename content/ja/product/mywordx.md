@@ -2,7 +2,7 @@
 title: "My Word Xの詳細と使い方【公式】"
 description: "My Word Xは、オリジナルな単語帳を作成するアプリケーションです。様々な情報を登録できるため、より詳しくその単語を覚えることができます。"
 keywords: ["My", "Word"]
-appId: "id6450119338"
+appId: "6450119338"
 ---
 
 # My Word X

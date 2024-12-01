@@ -2,7 +2,7 @@
 title: "Death To _blank（Safari版）の詳細と使い方【公式】"
 description: "Death To _blankのSafari拡張機能版のサポートページです。この拡張機能は、リンクから_blank属性を取り除くことで、リンクをクリックするだけでタブが増える現象をなくします。もう勝手にタブが増えることはありません。"
 keywords: ["_blank", "Safari"]
-appId: "id1672080999"
+appId: "1672080999"
 ---
 
 # Death To _blank

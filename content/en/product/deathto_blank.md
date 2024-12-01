@@ -2,7 +2,7 @@
 title: "More about Death To _blank and how to use it"
 description: "Safari extension Death To _blank prevents new tabs from opening automatically when you click on a link."
 keywords: ["_blank", "Safari"]
-appId: "id1672080999"
+appId: "1672080999"
 ---
 
 # Death To _blank

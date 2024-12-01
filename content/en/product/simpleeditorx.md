@@ -2,7 +2,7 @@
 title: "More about Simple Editor X and how to use it"
 description: "Simple Editor X is a simple notepad and text editor that can be saved as a text file. It can count the number of characters, words, sentences, and paragraphs, and can read sentences out loud."
 keywords: ["Note", "Memo"]
-appId: "id1612026794"
+appId: "1612026794"
 ---
 
 # Simple Editor X

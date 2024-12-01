@@ -2,7 +2,7 @@
 title: "Simple Editor Xの詳細と使い方【公式】"
 description: "Simple Editor Xは、テキストファイルとして保存することができるシンプルなメモ帳・テキストエディタです。文字数・単語数・文章数・段落数をカウントでき、文章を読み上げることができます。"
 keywords: ["ノート", "メモ"]
-appId: "id1612026794"
+appId: "1612026794"
 ---
 
 # Simple Editor X
