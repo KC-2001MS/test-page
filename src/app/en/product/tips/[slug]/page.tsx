@@ -87,10 +87,10 @@ export default async function Tips({ params }: TipsPageProps) {
   const { content } = await getTip(slug);
 
   return (
-     <main>
+    <main>
       <div id="maincard">
-      <div dangerouslySetInnerHTML={{ __html: content }} />
-    </div>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
+      </div>
     </main>
   );
 }

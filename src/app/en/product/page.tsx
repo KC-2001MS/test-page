@@ -1,76 +1,100 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 import AppStoreLink from '@/components/AppStoreLink';
+import AppPrice from '@/components/AppPrice';
 import "@styles/content.css";
 import "@styles/product.css";
+import { Language } from "@/lib/Language";
 
 const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
 
+interface AppInfo {
+    id: number;
+    region: string;
+  }
+  
+  interface AppPriceData {
+    id: number;
+    price: string;
+  }
+
 export const metadata: Metadata = {
     title: "Applications developed and projects/services contributed to by the Iroiro",
-  description:
-    "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
-  abstract:
-    "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). Detailed descriptions of each service are provided.",
-  applicationName: "Iroiro's portfolio",
-  authors: [
-    {
-      name: "Keisuke Chinone",
-      url: "https://iroiro.dev",
-    },
-  ],
-  creator: "Keisuke Chinone",
-  publisher: "Keisuke Chinone",
-  generator: "Next.js",
-  keywords: ["SwiftUI", "Keisuke", "Chinone"],
+    description:
+        "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
+    abstract:
+        "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). Detailed descriptions of each service are provided.",
+    applicationName: "Iroiro's portfolio",
+    authors: [
+        {
+            name: "Keisuke Chinone",
+            url: "https://iroiro.dev",
+        },
+    ],
+    creator: "Keisuke Chinone",
+    publisher: "Keisuke Chinone",
+    generator: "Next.js",
+    keywords: ["SwiftUI", "Keisuke", "Chinone"],
     // 
     robots: {
-      index: false,
-      follow: false,
+        index: false,
+        follow: false,
     },
     alternates: {
         canonical: "https://iroiro.dev/en/product",
         languages: {
-          ja: "https://iroiro.dev/product",
-          en: "https://iroiro.dev/en/product",
+            ja: "https://iroiro.dev/product",
+            en: "https://iroiro.dev/en/product",
         },
-      },
+    },
     icons: [
-      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
-      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+        { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+        { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
     ],
     openGraph: {
         type: "article",
         url: "https://iroiro.dev/en/product",
         title: "Applications developed and projects/services contributed to by the Iroiro",
         description:
-          "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
+            "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
         siteName: "Iroiro's portfolio",
-      images: [
-        {
-          url: 'https://iroiro.dev/images/出雲大社1080.jpg',
-        },
-      ],
+        images: [
+            {
+                url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+            },
+        ],
     },
     twitter: {
         card: "summary",
-      site: '@IroIro1234work',
-      creator: '@IroIro1234work',
-      images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+        site: '@IroIro1234work',
+        creator: '@IroIro1234work',
+        images: 'https://iroiro.dev/images/出雲大社1080.jpg',
     },
     appleWebApp: {
-      capable: true,
-      title: "Iroiro's portfolio",
-      statusBarStyle: 'black-translucent'
+        capable: true,
+        title: "Iroiro's portfolio",
+        statusBarStyle: 'black-translucent'
     },
     formatDetection: {
-      telephone: false,
-      email: false,
-      address: false,
+        telephone: false,
+        email: false,
+        address: false,
     },
-  };
+};
+  
+  const apps: AppInfo[] = [
+    { id: 6470128646, region: "us" },
+    { id: 6450119338, region: "us" },
+    { id: 1668831130, region: "us" },
+    { id: 6446932202, region: "us" },
+    { id: 1612026794, region: "us" },
+    { id: 1672080999, region: "us" },
+    { id: 1574021257, region: "us" },
+  ];
 
-export default function Product() {
+export default async function Product() {
+    const prices = await fetchPrices();
+
     return (
         <main>
             <div id="maincard">
@@ -85,24 +109,32 @@ export default function Product() {
                                     <Image src={`${PATH}/images/Mahjong Tile Converter.avif`} className="appIcon left" height={100} width={100} alt="Mahjong Tile Converter Icon" />
                                 </a>
                             </div>
-                            <p className="clear">
+                            <div className="clear">
                                 <p>
                                     <strong>Mahjong Tile Converter</strong> converts tiles represented in MPSZ format into a
                                     graphical representation using Unicode.
                                 </p>
-                            </p>
+                            </div>
                             <h4>Supported platforms</h4>
                             <table>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
-                            <h4><a href="./product/mahjongtileconverter.html">Support Page</a></h4>
+                            <h4><a href="./product/mahjongtileconverter">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="MahjongTileConverterPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id6470128646" />
+                                <AppStoreLink appId="id6470128646" lang={Language.EnglishUS} />
+                                <AppPrice id={6470128646} prices={prices} lang={Language.EnglishUS}  />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -119,40 +151,44 @@ export default function Product() {
                             </p>
                             <h4>Supported Platforms</h4>
                             <table>
-                                <tr>
-                                    <th className="os">OS</th>
-                                    <th className="vr">Version</th>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iPadOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">visionOS</td>
-                                    <td className="vrItem">1 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">watchOS</td>
-                                    <td className="vrItem">10 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">tvOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">iOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">iPadOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">visionOS</td>
+                                        <td className="vrItem">1 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">watchOS</td>
+                                        <td className="vrItem">10 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">tvOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
-                            <h4><a href="./product/mywordx.html">Support Page</a></h4>
+                            <h4><a href="./product/mywordx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="MyWordXPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id6450119338" />
+                                <AppStoreLink appId="id6450119338" lang={Language.EnglishUS}  />
+                                <AppPrice id={6450119338} prices={prices} lang={Language.EnglishUS}  />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -174,32 +210,36 @@ export default function Product() {
                             </div>
                             <h4>Supported Platforms</h4>
                             <table>
-                                <tr>
-                                    <th className="os">OS</th>
-                                    <th className="vr">Version</th>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iPadOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">visionOS</td>
-                                    <td className="vrItem">1 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">iOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">iPadOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">visionOS</td>
+                                        <td className="vrItem">1 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
-                            <h4><a href="./product/wordfilterx.html">Support Page</a></h4>
+                            <h4><a href="./product/wordfilterx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="WordFilterXPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id1668831130" />
+                                <AppStoreLink appId="id1668831130" lang={Language.EnglishUS}  />
+                                <AppPrice id={1668831130} prices={prices} lang={Language.EnglishUS}  />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -221,32 +261,36 @@ export default function Product() {
                             </p>
                             <h4>Supported Platforms</h4>
                             <table>
-                                <tr>
-                                    <th className="os">OS</th>
-                                    <th className="vr">Version</th>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iPadOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">visionOS</td>
-                                    <td className="vrItem">1 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">iOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">iPadOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">visionOS</td>
+                                        <td className="vrItem">1 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
-                            <h4><a href="./product/uncheckx.html">Support Page</a></h4>
+                            <h4><a href="./product/uncheckx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="UncheckXPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id6446932202" />
+                                <AppStoreLink appId="id6446932202" lang={Language.EnglishUS}  />
+                                <AppPrice id={6446932202} prices={prices} lang={Language.EnglishUS}  />
                             </div>
 
                         </div>
@@ -257,36 +301,43 @@ export default function Product() {
                                     <Image src={`${PATH}/images/Simple Editor X.avif`} className="appIcon left" height={100} width={100} alt="Simple Editor X Icon" />
                                 </a>
                             </div>
-                            <p className="clear">
+                            <div className="clear">
                                 <p>
                                     <strong>Simple Editor X</strong> is a simple notepad and text editor that can be saved as a
                                     text file.
                                     Although it is a text editor with minimal features, it has a voice reading function and the
                                     ability to insert canned text.
                                 </p>
-                            </p>
+                            </div>
                             <h4>Supported platforms</h4>
                             <table>
-                                <tr>
-                                    <td className="osItem">iOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iPadOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">iOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">iPadOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
-                            <h4><a href="./product/simpleeditorx.html">Support Page</a></h4>
+                            <h4><a href="./product/simpleeditorx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="SimpleEditorXPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id1612026794" />
+                                <AppStoreLink appId="id1612026794" lang={Language.EnglishUS}  />
+                                <AppPrice id={1612026794} prices={prices} lang={Language.EnglishUS}  />
                             </div>
-
                         </div>
                     </div>
 
@@ -311,32 +362,36 @@ export default function Product() {
                             </p>
                             <h4>Supported platforms</h4>
                             <table>
-                                <tr>
-                                    <th className="os">OS</th>
-                                    <th className="vr">Version</th>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">iPadOS</td>
-                                    <td className="vrItem">17 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">visionOS</td>
-                                    <td className="vrItem">1 ~</td>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">14(Sonoma) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">iOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">iPadOS</td>
+                                        <td className="vrItem">17 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">visionOS</td>
+                                        <td className="vrItem">1 ~</td>
+                                    </tr>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">14(Sonoma) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
                             <h4>Media</h4>
                             <p><a
                                 href="https://books.google.co.jp/books?id=7E_HEAAAQBAJ&pg=PA131&lpg=PA131&dq=Keisuke+Chinone&source=bl&ots=-VqKdV3EKn&sig=ACfU3U3dAboshCgCcqkN2BbWpcwA6YvOYg&hl=ja&sa=X&ved=2ahUKEwiT646nmreAAxXgglYBHb2MANQQ6AF6BAgREAI#v=onepage&q=Keisuke%20Chinone&f=false">Mac
                                 Fan(Japanese magazine specializing in Apple products)</a></p>
-                            <h4><a href="./product/deathto_blank.html">Support Page</a></h4>
+                            <h4><a href="./product/deathto_blank">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <h4>About Chrome version</h4>
                             <p>
@@ -349,8 +404,8 @@ export default function Product() {
                                 accept support here.
                             </p>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="DeathTo_blankPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id1672080999" />
+                                <AppStoreLink appId="id1672080999" lang={Language.EnglishUS}  />
+                                <AppPrice id={1672080999} prices={prices} lang={Language.EnglishUS}  />
                             </div>
 
                         </div>
@@ -367,14 +422,18 @@ export default function Product() {
                             </p>
                             <h4>Supported platforms</h4>
                             <table>
-                                <tr>
-                                    <th className="os">OS</th>
-                                    <th className="vr">Version</th>
-                                </tr>
-                                <tr>
-                                    <td className="osItem">macOS</td>
-                                    <td className="vrItem">11.1(Big Sur) ~</td>
-                                </tr>
+                                <thead>
+                                    <tr>
+                                        <th className="os">OS</th>
+                                        <th className="vr">Version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td className="osItem">macOS</td>
+                                        <td className="vrItem">11.1(Big Sur) ~</td>
+                                    </tr>
+                                </tbody>
                             </table>
                             <h4>Media</h4>
                             <p><a href="https://book.mynavi.jp/macfan/detail_summary/id=124346">Mac Fan(Japanese magazine
@@ -382,8 +441,8 @@ export default function Product() {
                             <h4><a href="https://github.com/brandonlee503/DeclutterInfo">Support Page</a></h4>
                             <h4><a href="mailto:declutterappextension@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">Plice：<span id="DeclutterForSafariPriceResult" className="plice"></span></p>
-                                <AppStoreLink appId="id1574021257" />
+                                <AppStoreLink appId="id1574021257" lang={Language.EnglishUS}  />
+                                <AppPrice id={1574021257} prices={prices} lang={Language.EnglishUS}  />
                             </div>
                         </div>
                     </div>
@@ -392,7 +451,7 @@ export default function Product() {
                     <h2 className="n2">Templates</h2>
                     <div className="h3card">
                         <h3>Word-Filter-X-Templates</h3>
-                        <p>
+                        <div>
                             Template site for Word Filter X configuration data.
                             An overview is available from the <a
                                 href="https://iroiro.dev/Word-Filter-X-Templates/">Word-Filter-X-Templates
@@ -400,7 +459,7 @@ export default function Product() {
                             <h4><a
                                 href="https://github.com/KC-2001MS/Word-Filter-X-Templates/archive/refs/heads/master.zip">Download</a>
                             </h4>
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div className="h2card clear">
@@ -409,7 +468,7 @@ export default function Product() {
                         <h3>Swift</h3>
                         <p>
                             This feed provides information related to the Swift language.
-                            Please see the <a href="./product/bluesky_swift-feed.html">More about Bluesky Swift feed</a> for an overview.
+                            Please see the <a href="./product/bluesky_swift-feed">More about Bluesky Swift feed</a> for an overview.
                         </p>
                     </div>
                 </div>
@@ -441,7 +500,7 @@ export default function Product() {
                     <h2 className="n5">Shell Script</h2>
                     <div className="h3card">
                         <h3>Shell-Config-Setup</h3>
-                        <p>
+                        <div>
                             Shell scripts to easily configure the OS and download applications.
                             An overview is available from the <a
                                 href="https://github.com/KC-2001MS/Shell-Config-Setup">Shell-Config-Setup repository</a>.
@@ -449,7 +508,7 @@ export default function Product() {
                                 <a
                                     href="https://github.com/KC-2001MS/Shell-Config-Setup/archive/refs/heads/main.zip">Download</a>
                             </h4>
-                        </p>
+                        </div>
                     </div>
                 </div>
                 <div className="h2card clear">
@@ -469,3 +528,29 @@ export default function Product() {
         </main>
     );
 }
+
+async function fetchPrices(): Promise<AppPriceData[]> {
+    const apiBaseURL = "https://itunes.apple.com/lookup?";
+    const prices: AppPriceData[] = [];
+  
+    for (const app of apps) {
+      const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
+      try {
+        const response = await fetch(apiEndpoint);
+        const data = await response.json();
+        if (data.results && data.results[0]) {
+          prices.push({
+            id: app.id,
+            price: data.results[0].formattedPrice || "Free",
+          });
+        } else {
+          prices.push({ id: app.id, price: "App not found" });
+        }
+      } catch (err) {
+        console.error(`Error fetching data for ${app.id}:`, err);
+        prices.push({ id: app.id, price: "Error fetching data" });
+      }
+    }
+  
+    return prices
+  };

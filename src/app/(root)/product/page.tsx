@@ -2,10 +2,21 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import AppStoreLink from '@/components/AppStoreLink';
+import AppPrice from '@/components/AppPrice';
 import "@styles/content.css";
 import "@styles/product.css";
 
 const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
+
+interface AppInfo {
+    id: number;
+    region: string;
+  }
+  
+  interface AppPriceData {
+    id: number;
+    price: string;
+  }
 
 export const metadata: Metadata = {
     title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
@@ -71,7 +82,20 @@ export const metadata: Metadata = {
       },
   };
 
-export default function Product() {
+  const apps: AppInfo[] = [
+    { id: 6477782786, region: "jp" },
+    { id: 6470128646, region: "jp" },
+    { id: 6450119338, region: "jp" },
+    { id: 1668831130, region: "jp" },
+    { id: 6446932202, region: "jp" },
+    { id: 1612026794, region: "jp" },
+    { id: 1672080999, region: "jp" },
+    { id: 1574021257, region: "jp" },
+  ];
+
+export default async function Product() {
+    const prices = await fetchPrices();
+
     return (
         <main>
             <div id="maincard">
@@ -120,8 +144,8 @@ export default function Product() {
                             <h4><a href="./product/japancorpinfo">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="MahjongTileConverterPriceResult" className="plice"></span>（税込）</p>
                                 <AppStoreLink appId="id6477782786" />
+                                <AppPrice id={6477782786} prices={prices} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -153,8 +177,8 @@ export default function Product() {
                             <h4><a href="./product/mahjongtileconverter">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="MahjongTileConverterPriceResult" className="plice"></span>（税込）</p>
                                 <AppStoreLink appId="id6470128646" />
+                                <AppPrice id={6470128646} prices={prices} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -206,8 +230,8 @@ export default function Product() {
                             <h4><a href="./product/mywordx">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="MyWordXPriceResult" className="plice"></span>（税込）</p>
                                 <AppStoreLink appId="id6450119338" />
+                                <AppPrice id={6450119338} prices={prices} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -254,8 +278,8 @@ export default function Product() {
                             <h4><a href="./product/wordfilterx">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="WordFilterXPriceResult" className="plice"></span>（税込）</p>
                                 <AppStoreLink appId="id1668831130" />
+                                <AppPrice id={1668831130} prices={prices} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -308,8 +332,8 @@ export default function Product() {
                             <h4><a href="./product/uncheckx">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="UncheckXPriceResult" className="plice"></span></p>
                                 <AppStoreLink appId="id6446932202" />
+                                <AppPrice id={6446932202} prices={prices} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -350,8 +374,8 @@ export default function Product() {
                             <h4><a href="./product/simpleeditorx">サポートページ</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="SimpleEditorXPriceResult" className="plice"></span>（税込）</p>
                                 <AppStoreLink appId="id1612026794" />
+                                <AppPrice id={1612026794} prices={prices} />
                             </div>
 
                         </div>
@@ -413,8 +437,8 @@ export default function Product() {
                             </p>
                             <p>※Chrome版のサポートは<a href="mailto:jbarker@jbarker.net">Chrome版の製作者のメールアドレス</a>にお願いします。こちらではサポートを受け付けておりませんのでご注意ください。</p>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="DeathTo_blankPriceResult" className="plice"></span></p>
                                 <AppStoreLink appId="id1672080999" />
+                                <AppPrice id={1672080999} prices={prices} />
                             </div>
                         </div>
                     </div>
@@ -447,8 +471,8 @@ export default function Product() {
                             <h4><a href="https://github.com/brandonlee503/DeclutterInfo">サポートページ</a></h4>
                             <h4><a href="mailto:declutterappextension@gmail.com">フィードバック</a></h4>
                             <div className="appInfoButtom">
-                                <p className="right">価格：<span id="DeclutterForSafariPriceResult" className="plice"></span></p>
                                 <AppStoreLink appId="id1574021257" />
+                                <AppPrice id={1574021257} prices={prices} />
                             </div>
                         </div>
                     </div>
@@ -532,3 +556,30 @@ export default function Product() {
         </main>
     );
 }
+
+
+async function fetchPrices(): Promise<AppPriceData[]> {
+    const apiBaseURL = "https://itunes.apple.com/lookup?";
+    const prices: AppPriceData[] = [];
+  
+    for (const app of apps) {
+      const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
+      try {
+        const response = await fetch(apiEndpoint);
+        const data = await response.json();
+        if (data.results && data.results[0]) {
+          prices.push({
+            id: app.id,
+            price: data.results[0].formattedPrice || "Free",
+          });
+        } else {
+          prices.push({ id: app.id, price: "App not found" });
+        }
+      } catch (err) {
+        console.error(`Error fetching data for ${app.id}:`, err);
+        prices.push({ id: app.id, price: "Error fetching data" });
+      }
+    }
+  
+    return prices
+  };

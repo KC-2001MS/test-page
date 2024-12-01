@@ -92,8 +92,8 @@ export default async function ProductDetail({ params }: ProductPageProps) {
   return (
     <main>
       <div id="maincard">
-      <div dangerouslySetInnerHTML={{ __html: content }} />
-    </div>
+        <div dangerouslySetInnerHTML={{ __html: content }} />
+      </div>
     </main>
   );
 }

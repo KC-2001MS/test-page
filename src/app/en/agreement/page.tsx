@@ -3,15 +3,15 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Terms of Use",
     description:
-      "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
+        "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
     abstract:
-      "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
+        "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
     applicationName: "Iroiro's portfolio",
     authors: [
-      {
-        name: "Keisuke Chinone",
-        url: "https://iroiro.dev",
-      },
+        {
+            name: "Keisuke Chinone",
+            url: "https://iroiro.dev",
+        },
     ],
     creator: "Keisuke Chinone",
     publisher: "Keisuke Chinone",
@@ -19,50 +19,50 @@ export const metadata: Metadata = {
     keywords: ["Agreement", "Keisuke", "Chinone"],
     // 
     robots: {
-      index: false,
-      follow: false,
+        index: false,
+        follow: false,
     },
     alternates: {
         canonical: "https://iroiro.dev/en/agreement",
         languages: {
-          ja: "https://iroiro.dev/agreement",
-          en: "https://iroiro.dev/en/agreement",
+            ja: "https://iroiro.dev/agreement",
+            en: "https://iroiro.dev/en/agreement",
         },
-      },
+    },
     icons: [
-      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
-      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+        { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+        { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
     ],
     openGraph: {
         type: "article",
         url: "https://iroiro.dev/en/agreement",
         title: "Terms of Use",
         description:
-          "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
-      siteName: "Iroiro's portfolio",
-      images: [
-        {
-          url: 'https://iroiro.dev/images/出雲大社1080.jpg',
-        },
-      ],
+            "This is the Terms of Use for all services developed by Keisuke Chinone (activity name: Iroiro).",
+        siteName: "Iroiro's portfolio",
+        images: [
+            {
+                url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+            },
+        ],
     },
     twitter: {
-      card: 'summary_large_image',
-      site: '@IroIro1234work',
-      creator: '@IroIro1234work',
-      images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+        card: 'summary_large_image',
+        site: '@IroIro1234work',
+        creator: '@IroIro1234work',
+        images: 'https://iroiro.dev/images/出雲大社1080.jpg',
     },
     appleWebApp: {
-      capable: true,
-      title: "Iroiro's portfolio",
-      statusBarStyle: 'black-translucent'
+        capable: true,
+        title: "Iroiro's portfolio",
+        statusBarStyle: 'black-translucent'
     },
     formatDetection: {
-      telephone: false,
-      email: false,
-      address: false,
+        telephone: false,
+        email: false,
+        address: false,
     },
-  };
+};
 
 export default function Agreement() {
     return (
@@ -76,10 +76,10 @@ export default function Agreement() {
                         referred to as the &quot;Terms of Use&quot;) applies to the services provided by Keisuke Chinone (activity
                         name: Iroiro) (hereinafter referred to as the &quot;Company&quot;) (activity name: Various) (hereinafter
                         referred to as the &quot;Company&quot;) provides on the application or website (hereinafter referred to as the
-                            &quot;Service&quot;). This document sets forth the terms and conditions of use of the services provided by
+                        &quot;Service&quot;). This document sets forth the terms and conditions of use of the services provided by
                         Keisuke Kayanne (activity name: Various) (hereinafter referred to as the &quot;Company&quot;) on the
                         application or website (hereinafter referred to as the &quot;Service&quot;). Users (hereinafter referred to as
-                            &quot;Users&quot;) are requested to comply with these Terms of Use. Users are requested to use the Service in
+                        &quot;Users&quot;) are requested to comply with these Terms of Use. Users are requested to use the Service in
                         accordance with these Terms of Use.
                     </p>
                     <div className="h3card">

@@ -123,6 +123,12 @@ export default function Contact() {
                         <div className="h4card">
                             <h4>寄付</h4>
                             <p>寄付をご希望の方は、こちらをクリックしてください。ご寄付いただいたお金は、私のプログラミング・スキルの向上とアプリケーションのメンテナンスに使わせていただきます。</p>
+                            <p>
+                              <a href="https://www.buymeacoffee.com/iroiro" target="_top">
+                                <img src={`https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png`} alt="Buy Me A Coffee" style={{"height": "60px !important","width": "217px !important"}} />
+                              </a>
+                            </p>
+                            <p><a href="https://paypal.me/iroiroWork" style={{ borderRadius: '20px', display: 'block', width: '217px', padding: '15px', boxSizing: 'border-box', background: '#0070ba', color: '#FFF', textDecoration: 'none', textAlign: 'center'}}>Pay by PayPal</a></p>
                         </div>
                     </div>
                 </div>
