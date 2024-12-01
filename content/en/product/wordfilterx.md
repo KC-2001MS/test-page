@@ -1,6 +1,7 @@
 ---
-title: "Word Filter Xの詳細と使い方【公式】"
-description: "Word Filter XはSafariのWebサイト上の苦手な言葉を隠すアプリケーションです。Safari上の苦手な言葉を隠すことで、自身の心を穏やかにすることができます。このアプリはブラウザ拡張機能とiOSアプリの「ひよこフィルター」をベースに設定の同期機能や置き換える単語を変更する機能など機能を追加した派生版です。"
+title: "More about Word Filter X and how to use it"
+description: "Word Filter X is an application that hides words you don't like on Safari websites, allowing you to put your own mind at ease by hiding the words you don't like on Safari. This application is a derivative version of the browser extension and iOS application Hiyoko Filter with additional features such as the ability to synchronize settings and change the words to be replaced."
+keywords: ["Word", "Filter", "Safari"]
 ---
 
 # Word Filter X

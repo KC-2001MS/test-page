@@ -1,6 +1,7 @@
 ---
-title: "麻雀の牌姿を表現するMPSZ形式とは"
-description: "麻雀の牌姿を表現するMPSZ形式とは、どのような表記方法なのか説明します。"
+title: "What is the MPSZ format for representing mahjong tiles?"
+description: "This section explains how the MPSZ format is used to represent mahjong tiles."
+keywords: ["Mahjong", "mpsz"]
 ---
 
 # MPSZ format for representing mahjong tiles

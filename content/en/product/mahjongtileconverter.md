@@ -1,6 +1,7 @@
 ---
-title: "麻雀牌コンバータの詳細と使い方【公式】"
-description: "麻雀牌コンバータは、MPSZ形式で表現された牌姿をUnicodeを用いたグラフィカルな表記に変換します。"
+title: "More about Mahjong Tile Converter and how to use it"
+description: "Mahjong Tile Converter converts tiles represented in MPSZ format into a graphical representation using Unicode."
+keywords: ["Mahjong", "Unicode"]
 ---
 
 # Mahjong Tile Converter

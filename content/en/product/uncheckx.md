@@ -1,6 +1,7 @@
 ---
-title: "Uncheck Xの詳細と使い方【公式】"
-description: "Uncheck XはSafari拡張機能です。Webサイト上のデフォルトで選択状態となっているチェックボックスやラジオボタンを非選択状態に戻す効果があります。これにより、勝手に付けられたチェックを外す手間を削減できます。もう、いつの間にかメールマガジンが送られることはありません。"
+title: "More about Uncheck X and how to use it"
+description: "Uncheck X is a Safari Extension that has the effect of deselecting checkboxes and radio buttons that are selected by default on a Web site. This saves you the trouble of unchecking checkboxes that have been added without your permission. You will no longer receive email newsletters before you know it."
+keywords: ["Uncheck", "Safari"]
 ---
 
 # Uncheck X

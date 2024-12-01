@@ -1,9 +1,74 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import AppStoreLink from '@/components/AppStoreLink';
 import "@styles/content.css";
 import "@styles/product.css";
 
 const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
+
+export const metadata: Metadata = {
+    title: "Iroiro released",
+  description:
+    "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
+  abstract:
+    "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). Detailed descriptions of each service are provided.",
+  applicationName: "Iroiro's portfolio",
+  authors: [
+    {
+      name: "Keisuke Chinone",
+      url: "https://iroiro.dev",
+    },
+  ],
+  creator: "Keisuke Chinone",
+  publisher: "Keisuke Chinone",
+  generator: "Next.js",
+  keywords: ["SwiftUI", "Keisuke", "Chinone"],
+    // 
+    robots: {
+      index: false,
+      follow: false,
+    },
+    alternates: {
+        canonical: "https://iroiro.dev/en/product",
+        languages: {
+          ja: "https://iroiro.dev/product",
+          en: "https://iroiro.dev/en/product",
+        },
+      },
+    icons: [
+      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+    ],
+    openGraph: {
+        type: "article",
+        url: "https://iroiro.dev/en/product",
+        title: "Applications developed and projects/services contributed to by the Iroiro",
+        description:
+          "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
+        siteName: "Iroiro released",
+      images: [
+        {
+          url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+        },
+      ],
+    },
+    twitter: {
+        card: "summary",
+      site: '@IroIro1234work',
+      creator: '@IroIro1234work',
+      images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+    },
+    appleWebApp: {
+      capable: true,
+      title: "Iroiro's portfolio",
+      statusBarStyle: 'black-translucent'
+    },
+    formatDetection: {
+      telephone: false,
+      email: false,
+      address: false,
+    },
+  };
 
 export default function Product() {
     return (
@@ -17,7 +82,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Mahjong Tile Converter</h4>
                                 <a href="https://apps.apple.com/app/id6470128646">
-                                    <Image src={`${PATH}/image/Mahjong Tile Converter.avif`} className="appIcon left" height={100} width={100} alt="Mahjong Tile Converter Icon" />
+                                    <Image src={`${PATH}/images/Mahjong Tile Converter.avif`} className="appIcon left" height={100} width={100} alt="Mahjong Tile Converter Icon" />
                                 </a>
                             </div>
                             <p className="clear">
@@ -44,7 +109,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">My Word X</h4>
                                 <a href="https://apps.apple.com/app/id6450119338">
-                                    <Image src={`${PATH}/image/My Word X.avif`} className="appIcon left" height={100} width={100} alt="My Word X Icon" />
+                                    <Image src={`${PATH}/images/My Word X.avif`} className="appIcon left" height={100} width={100} alt="My Word X Icon" />
                                 </a>
                             </div>
                             <p className="clear">
@@ -94,7 +159,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Word Filter X</h4>
                                 <a href="https://apps.apple.com/app/id1668831130">
-                                    <Image src={`${PATH}/image/Word Filter X.avif`} className="appIcon left" height={100} width={100} alt="Word Filter X Icon" />
+                                    <Image src={`${PATH}/images/Word Filter X.avif`} className="appIcon left" height={100} width={100} alt="Word Filter X Icon" />
                                 </a>
                             </div>
                             <div className="clear">
@@ -141,7 +206,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Uncheck X</h4>
                                 <a href="https://apps.apple.com/app/id6446932202">
-                                    <Image src={`${PATH}/image/Uncheck X.avif`} className="appIcon left" height={100} width={100} alt="Uncheck X Icon" />
+                                    <Image src={`${PATH}/images/Uncheck X.avif`} className="appIcon left" height={100} width={100} alt="Uncheck X Icon" />
                                 </a>
                             </div>
                             <p className="clear">
@@ -189,7 +254,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Simple Editor X</h4>
                                 <a href="https://apps.apple.com/app/id1612026794">
-                                    <Image src={`${PATH}/image/Simple Editor X.avif`} className="appIcon left" height={100} width={100} alt="Simple Editor X Icon" />
+                                    <Image src={`${PATH}/images/Simple Editor X.avif`} className="appIcon left" height={100} width={100} alt="Simple Editor X Icon" />
                                 </a>
                             </div>
                             <p className="clear">
@@ -231,7 +296,7 @@ export default function Product() {
                             <div className="appInfoTop">
                                 <h4 className="left appTitle">Death To _blank</h4>
                                 <a href="https://apps.apple.com/app/id1672080999">
-                                    <Image src={`${PATH}/image/Death To _blank.avif`} className="appIcon left" height={100} width={100} alt="Death To _blank Icon" />
+                                    <Image src={`${PATH}/images/Death To _blank.avif`} className="appIcon left" height={100} width={100} alt="Death To _blank Icon" />
                                 </a>
                             </div>
                             <p className="clear">

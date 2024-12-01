@@ -1,6 +1,7 @@
 ---
 title: "Word Filter Xの詳細と使い方【公式】"
 description: "Word Filter XはSafariのWebサイト上の苦手な言葉を隠すアプリケーションです。Safari上の苦手な言葉を隠すことで、自身の心を穏やかにすることができます。このアプリはブラウザ拡張機能とiOSアプリの「ひよこフィルター」をベースに設定の同期機能や置き換える単語を変更する機能など機能を追加した派生版です。"
+keywords: ["Word", "Filter", "Safari"]
 ---
 
 # Word Filter X

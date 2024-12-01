@@ -1,8 +1,8 @@
 ---
-title: "Bluesky Swiftフィード【公式】"
-description: "Swift言語に関する最新情報のフィードです。Swift言語だけでなく、主要なSwiftフレームワーク、Pkl、サーバーサイドSwift、MLなどに関する情報もあります。"
+title: "More about Bluesky Swift feed"
+description: "A feed of the latest information about the Swift language, including not only the Swift language but also information about the major Swift frameworks, Pkl, server-side Swift, ML, etc."
+keywords: ["Bluesky", "Feed", "Swift"]
 ---
-
 # Bluesky Swift feed
 
 [The Swift feed](https://bsky.app/profile/did:plc:hp4di5zhc3q3uksjasitxfe4/feed/aaak5ekldg2wq) is Bluesky's quick and easy way to get relevant information about the Swift language.

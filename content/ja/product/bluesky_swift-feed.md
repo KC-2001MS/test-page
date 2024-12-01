@@ -1,6 +1,7 @@
 ---
 title: "Bluesky Swiftフィード【公式】"
 description: "Swift言語に関する最新情報のフィードです。Swift言語だけでなく、主要なSwiftフレームワーク、Pkl、サーバーサイドSwift、MLなどに関する情報もあります。"
+keywords: ["Bluesky", "Swift", "フィード"]
 ---
 
 # Bluesky Swiftフィード

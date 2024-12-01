@@ -1,4 +1,69 @@
+import type { Metadata } from "next";
 import "@styles/content.css";
+
+export const metadata: Metadata = {
+    title: "Privacy Policy",
+    description:
+      "This is the privacy policy for all services developed by Keisuke Chinone (activity name: Iroiro).",
+    abstract:
+      "This is the privacy policy for all services developed by Keisuke Chinone (activity name: Iroiro).",
+    applicationName: "Iroiro's portfolio",
+    authors: [
+      {
+        name: "Keisuke Chinone",
+        url: "https://iroiro.dev",
+      },
+    ],
+    creator: "Keisuke Chinone",
+    publisher: "Keisuke Chinone",
+    generator: "Next.js",
+    keywords: ["Privacy", "Policy", "Keisuke", "Chinone"],
+    // 
+    robots: {
+      index: false,
+      follow: false,
+    },
+    alternates: {
+        canonical: "https://iroiro.dev/en/privacy",
+        languages: {
+          ja: "https://iroiro.dev/privacy",
+          en: "https://iroiro.dev/en/privacy",
+        },
+      },
+    icons: [
+      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+    ],
+    openGraph: {
+        type: "article",
+        url: "https://iroiro.dev/en/privacy",
+        title: "Privacy Policy",
+        description:
+          "This is the privacy policy for all services developed by Keisuke Chinone (activity name: Iroiro).",
+        siteName: "Privacy Policy",
+      images: [
+        {
+          url: 'https://iroiro.dev/images/出雲大社1080.jpg',
+        },
+      ],
+    },
+    twitter: {
+        card: "summary",
+      site: '@IroIro1234work',
+      creator: '@IroIro1234work',
+      images: 'https://iroiro.dev/images/出雲大社1080.jpg',
+    },
+    appleWebApp: {
+      capable: true,
+      title: "Iroiro's portfolio",
+      statusBarStyle: 'black-translucent'
+    },
+    formatDetection: {
+      telephone: false,
+      email: false,
+      address: false,
+    },
+  };
 
 export default function Contact() {
     return (

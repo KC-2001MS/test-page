@@ -1,6 +1,7 @@
 ---
 title: "Safari拡張機能の有効化と設定の方法"
 description: "Safari拡張機能を有効化する方法や設定のマニュアルページです。"
+keywords: ["Safari"]
 ---
 
 

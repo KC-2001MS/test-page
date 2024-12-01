@@ -1,15 +1,14 @@
 ---
-title: "Safari拡張機能の有効化と設定の方法"
-description: "Safari拡張機能を有効化する方法や設定のマニュアルページです。"
+title: "How to Activate and Configure Safari Extensions"
+description: "Manual pages on how to activate and configure Safari extensions."
+keywords: ["Safari"]
 ---
 
 
 # How to Activate and Configure Safari Extensions
-
-Safari拡張機能を使い始めるのに必要な操作を説明します。
+This section describes the necessary operations to start using the Safari Extension.
 
 ## Validation
-
 1. Launch Safari settings
 　　Open Safari Settings and go to the Extensions screen or Extensions tab.
 2. Turn on extensions
