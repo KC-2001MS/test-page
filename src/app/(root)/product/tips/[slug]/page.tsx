@@ -12,7 +12,7 @@ type TipsPageProps = {
 
 export async function generateMetadata({ params }: TipsPageProps): Promise<Metadata> {
   const { slug } = await params
-  const filePath = path.join(process.cwd(), "content/ja/product/tips", `${slug}.md`);
+  const filePath = path.join(process.cwd(), "content/ja/tips", `${slug}.md`);
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
   const { data } = matter(fileContents);
