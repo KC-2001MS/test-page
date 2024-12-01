@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
     description:
       "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
-    siteName: "いろいろのアプリ・プロジェクト・サービス",
+      siteName: 'いろいろのポートフォリオ',
         images: [
           {
             url: "https://iroiro.dev/images/出雲大社1080.jpg",

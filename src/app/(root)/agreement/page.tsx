@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         title: "利用規約",
         description:
           "茅根啓介（活動名：いろいろ）の展開する全てのサービスに関する利用規約です。",
-        siteName: "利用規約",
+          siteName: 'いろいろのポートフォリオ',
         images: [
           {
             url: "https://iroiro.dev/images/出雲大社1080.jpg",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
       },
   };
 
-export default function Home() {
+export default function Agreement() {
     return (
         <main>
             <div id="maincard">

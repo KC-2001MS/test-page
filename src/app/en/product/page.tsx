@@ -7,7 +7,7 @@ import "@styles/product.css";
 const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
 
 export const metadata: Metadata = {
-    title: "Iroiro released",
+    title: "Applications developed and projects/services contributed to by the Iroiro",
   description:
     "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
   abstract:
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         title: "Applications developed and projects/services contributed to by the Iroiro",
         description:
           "These are the applications, projects and services developed by Keisuke Chinone (activity name: Iroiro). An overview of each service will be described in detail.",
-        siteName: "Iroiro released",
+        siteName: "Iroiro's portfolio",
       images: [
         {
           url: 'https://iroiro.dev/images/出雲大社1080.jpg',

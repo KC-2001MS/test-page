@@ -2,6 +2,7 @@
 title: "More about Uncheck X and how to use it"
 description: "Uncheck X is a Safari Extension that has the effect of deselecting checkboxes and radio buttons that are selected by default on a Web site. This saves you the trouble of unchecking checkboxes that have been added without your permission. You will no longer receive email newsletters before you know it."
 keywords: ["Uncheck", "Safari"]
+appId: "id6446932202"
 ---
 
 # Uncheck X

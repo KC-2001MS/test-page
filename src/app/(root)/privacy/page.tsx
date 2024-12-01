@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         title: "プライバシーポリシー",
         description:
           "茅根啓介（活動名：いろいろ）の展開する全てのサービスに関するプライバシーポリシーです。",
-        siteName: "プライバシーポリシー",
+          siteName: 'いろいろのポートフォリオ',
         images: [
           {
             url: "https://iroiro.dev/images/出雲大社1080.jpg",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
       },
   };
 
-export default function Contact() {
+export default function Privacy() {
     return (
         <main>
             <div id="maincard">

@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         title: "Privacy Policy",
         description:
           "This is the privacy policy for all services developed by Keisuke Chinone (activity name: Iroiro).",
-        siteName: "Privacy Policy",
+        siteName: "Iroiro's portfolio",
       images: [
         {
           url: 'https://iroiro.dev/images/出雲大社1080.jpg',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     },
   };
 
-export default function Contact() {
+export default function Privacy() {
     return (
         <main>
             <div id="maincard">

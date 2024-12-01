@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: TipsPageProps): Promise<Metad
   };
 }
 
-export default async function TipsPage({ params }: TipsPageProps) {
+export default async function Tips({ params }: TipsPageProps) {
   const { slug } = await params
   const { content } = await getTip(slug);
 

@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         title: "いろいろへのお問い合わせ",
         description:
           "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスについてのお問い合わせ先です。",
-        siteName: "【いろいろ】お問い合わせ",
+          siteName: 'いろいろのポートフォリオ',
       images: [
         {
           url: 'https://iroiro.dev/images/出雲大社1080.jpg',

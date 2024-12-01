@@ -2,6 +2,7 @@
 title: "More about Mahjong Tile Converter and how to use it"
 description: "Mahjong Tile Converter converts tiles represented in MPSZ format into a graphical representation using Unicode."
 keywords: ["Mahjong", "Unicode"]
+appId: "id6470128646"
 ---
 
 # Mahjong Tile Converter

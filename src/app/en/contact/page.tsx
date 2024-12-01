@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Contact Iroiro",
     description:
       "Contact information for inquiries about applications, projects and services developed by Keisuke Chinone (activity name: Iroiro).",
-    siteName: "Contact Iroiro",
+    siteName: "Iroiro's portfolio",
       images: [
         {
           url: 'https://iroiro.dev/images/出雲大社1080.jpg',

@@ -73,6 +73,9 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
       title: defaultAppName,
       statusBarStyle: "black-translucent",
     },
+    itunes: data.appId === undefined ? null : {
+      appId: data.appId ?? '',
+    },
     formatDetection: {
       telephone: false,
       email: false,
@@ -82,7 +85,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 }
 
 // ページのコンポーネント
-export default async function ProductPage({ params }: ProductPageProps) {
+export default async function ProductDetail({ params }: ProductPageProps) {
   const { slug } = await params
   const { content } = await getProduct(slug);
 
