@@ -1,10 +1,12 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
 import { remark } from "remark";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
-import html from "remark-html";
+import remarkRehype from "remark-rehype";
 import { Metadata } from "next";
 
 type TipsPageProps = {
@@ -104,9 +106,13 @@ async function getTip(slug: string) {
 
   const { content } = matter(fileContents);
   const processedContent = await remark()
-    .use(remarkGfm)
-    .use(remarkBreaks)
-    .use(html)
+  .use(remarkGfm)
+  .use(remarkBreaks)
+  .use(remarkRehype, {
+    allowDangerousHtml: true,
+  })
+  .use(rehypeRaw)
+  .use(rehypeStringify)
     .process(content);
 
   return {

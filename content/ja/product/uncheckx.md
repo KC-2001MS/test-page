@@ -29,6 +29,25 @@ Uncheck Xには以下の特徴があります。
 プライバシーポリシー
 詳細は[プライバシーポリシー](/privacy)をご覧ください。
 
+お知らせ
+<div class="isLightMode">
+                        <blockquote class="twitter-tweet" data-lang="ja">
+                            <p lang="ja" dir="ltr">本日、私の展開する以下のSafari拡張機能をvisionOS向けに展開できること発表でき、とても嬉しく思います。<br>・Uncheck
+                                X<br>・Death To _blank<br>・Word Filter X<br><br>現在、実機にて動作確認済みでVision
+                                Proのリリース時からダウンロード可能となる予定です。</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+                                href="https://twitter.com/IroIro1234work/status/1691774413916852735?ref_src=twsrc%5Etfw">2023年8月16日</a>
+                        </blockquote>
+                    </div>
+                    <div class="isDarkMode">
+                        <blockquote class="twitter-tweet isDarkMode" data-theme="dark">
+                            <p lang="ja" dir="ltr">本日、私の展開する以下のSafari拡張機能をvisionOS向けに展開できること発表でき、とても嬉しく思います。<br>・Uncheck
+                                X<br>・Death To _blank<br>・Word Filter X<br><br>現在、実機にて動作確認済みでVision
+                                Proのリリース時からダウンロード可能となる予定です。</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+                                href="https://twitter.com/IroIro1234work/status/1691774413916852735?ref_src=twsrc%5Etfw">August
+                                16, 2023</a>
+                        </blockquote>
+                    </div>
+
 ## 有効化と設定の方法
 [Safari拡張機能の有効化と設定の方法](/product/tips/safari_settings)をご覧ください。
 
@@ -42,13 +61,11 @@ Safariのツールバー上にアイコンがあります。このアイコン�
 ## Siriとショートカット
 ショートカットアプリのショートカットにUncheck Xのアクションを追加することで、効率的なワークフローを実現できます。
 また、Siriに話しかけることでUncheck X拡張機能をオン・オフすることもできます。
-SiriからUncheck X拡張機能をオン・オフ
-
+### SiriからUncheck X拡張機能をオン・オフ
 以下の言葉でオン・オフができます。
 - 「Uncheck Xをオフにして」
 - 「Uncheck Xをオンにして」
-ショートカットアプリにUncheck Xアクションを追加
-
+### ショートカットアプリにUncheck Xアクションを追加
 1. ショートカットアプリから新しいショートカットを追加します。
 2. Uncheck Xのアクションから、ショートカットに追加したいアクションを選択してドラックアンドドロップで追加します。
 3. アクションに設定項目がある場合は、タップして項目を選びます。

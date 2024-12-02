@@ -4,6 +4,8 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
+import remarkRehype from "remark-rehype";
+import rehypeRaw from "rehype-raw";
 import html from "remark-html";
 import { Metadata } from "next";
 
@@ -106,6 +108,10 @@ async function getTip(slug: string) {
   const processedContent = await remark()
     .use(remarkGfm)
     .use(remarkBreaks)
+    .use(remarkRehype, {
+      allowDangerousHtml: true,
+    })
+    .use(rehypeRaw)
     .use(html)
     .process(content);
 

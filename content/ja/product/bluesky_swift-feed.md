@@ -8,6 +8,25 @@ keywords: ["Bluesky", "Swift", "フィード"]
 
 Swiftフィードは、BlueskyでSwift言語の関連情報を簡単に入手できるフィードです。Swift言語だけでなく、以下の情報も簡単に入手することができます。
 
+Swiftフィードは、Swift言語だけでなく、以下の情報も簡単に入手することができます。
+- Swift
+- pkl
+- MSL
+- Objective-C
+- SwiftUI
+- UIKit
+- AppKit
+- Metal
+- SwiftWin32UI
+- Core ML/Create ML
+- MLX
+- WWDC
+- Xcode
+- Xcode Playground
+- Swift Playground
+- iOSDC
+- try! Swift
+
 また、以下のURLを含む情報の入手が可能です。
 - swift.org
 - pkl-lang.org
@@ -21,7 +40,7 @@ Bluesky
 詳細は[プライバシーポリシー](/privacy)をご覧ください。
 
 お知らせ
-                <blockquote class="bluesky-embed"
+<blockquote class="bluesky-embed"
                         data-bluesky-uri="at://did:plc:hp4di5zhc3q3uksjasitxfe4/app.bsky.feed.post/3kphmwuddsy2d"
                         data-bluesky-cid="bafyreigqpianc6qts3s2wpnrvprhyoh7wokems3vm3wafgf75jwwvg5apa">
                         <p lang="en">#Swift 言語のフィードを作成しました。これが初めてのフィードです。Swiftの情報を知りたい人はぜひ登録してみてください。
@@ -47,3 +66,9 @@ Bluesky
                         href="https://bsky.app/profile/did:plc:hp4di5zhc3q3uksjasitxfe4/post/3kqq7mpdsli2k?ref_src=embed">Apr
                         23, 2024 at 0:50</a>
                 </blockquote>
+
+## Tips
+このフィードに投稿したい場合は、SwiftFeedタグをつけて投稿してください。
+
+## ライセンス
+このフィードはSkyFeedで作成され、MITライセンスを適応しています。Skyfeedの設定を記載したjsonファイルが配布されていますのでご確認ください。

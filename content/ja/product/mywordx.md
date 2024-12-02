@@ -34,17 +34,43 @@ My Word Xには以下の特徴があります。
 - 例
 
 対応プラットフォーム
-| OS | バージョン |
-| ---- | ---- |
-| iOS | 17 ~ |
-| iPadOS | 17 ~ |
-| visionOS | 1 ~ |
-| macOS | 14(Sonoma) ~ |
-| watchOS | 10 ~ |
-| tvOS | 17 ~ |
+| OS       | バージョン   |
+| -------- | ------------ |
+| iOS      | 17 ~         |
+| iPadOS   | 17 ~         |
+| visionOS | 1 ~          |
+| macOS    | 14(Sonoma) ~ |
+| watchOS  | 10 ~         |
+| tvOS     | 17 ~         |
 
 プライバシーポリシー
 詳細は[プライバシーポリシー](/privacy)をご覧ください。
+
+お知らせ
+<div class="isLightMode">
+                        <blockquote class="twitter-tweet" data-lang="ja">
+                            <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
+                                XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
+                                    href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+                                <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
+                                    href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
+                            </p>&mdash; いろいろ(Iroiro)
+                            (@IroIro1234work) <a
+                                href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
+                        </blockquote>
+                    </div>
+                    <div class="isDarkMode">
+                        <blockquote class="twitter-tweet" data-lang="ja" data-theme="dark">
+                            <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
+                                XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
+                                    href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+                                <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
+                                    href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
+                            </p>&mdash; いろいろ(Iroiro)
+                            (@IroIro1234work) <a
+                                href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
+                        </blockquote>
+                    </div>
 
 ## 単語の追加
 ツールバーのプラスアイコンをクリック  
