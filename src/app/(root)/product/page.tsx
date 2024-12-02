@@ -11,78 +11,78 @@ const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
 interface AppInfo {
     id: number;
     region: string;
-  }
-  
-  interface AppPriceData {
+}
+
+interface AppPriceData {
     id: number;
     price: string;
-  }
+}
 
 export const metadata: Metadata = {
     title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
-  description:
-    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
-  abstract:
-    "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスの詳細ページです。",
-  applicationName: "いろいろポートフォリオ",
-  authors: [
-    {
-      name: "茅根啓介",
-      url: "https://iroiro.dev",
-    },
-  ],
-  creator: "茅根啓介",
-  publisher: "茅根啓介",
-  generator: "Next.js",
-  keywords: ["SwiftUI", "茅根啓介"],
+    description:
+        "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
+    abstract:
+        "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスの詳細ページです。",
+    applicationName: "いろいろポートフォリオ",
+    authors: [
+        {
+            name: "茅根啓介",
+            url: "https://iroiro.dev",
+        },
+    ],
+    creator: "茅根啓介",
+    publisher: "茅根啓介",
+    generator: "Next.js",
+    keywords: ["SwiftUI", "茅根啓介"],
     // このデータは、テストが完了したら反転させる。
     robots: {
-      index: false,
-      follow: false,
+        index: false,
+        follow: false,
     },
     alternates: {
         canonical: "https://iroiro.dev/product",
         languages: {
-          ja: "https://iroiro.dev/product",
-          en: "https://iroiro.dev/en/product",
+            ja: "https://iroiro.dev/product",
+            en: "https://iroiro.dev/en/product",
         },
-      },
+    },
     icons: [
-      { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
-      { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
+        { rel: 'icon', url: 'https://iroiro.dev/favicon.ico' },
+        { rel: 'apple-touch-icon', url: 'https://iroiro.dev/apple-touch-icon.png' },
     ],
     openGraph: {
         type: "article",
-    url: "https://iroiro.dev/product",
-    title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
-    description:
-      "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
-      siteName: 'いろいろのポートフォリオ',
+        url: "https://iroiro.dev/product",
+        title: "いろいろが開発したアプリや貢献したプロジェクト・サービス",
+        description:
+            "茅根啓介（活動名：いろいろ）の展開したアプリやプロジェクト・サービスです。それぞれのサービスの概要について詳しく説明します。",
+        siteName: 'いろいろのポートフォリオ',
         images: [
-          {
-            url: "https://iroiro.dev/images/出雲大社1080.jpg",
-          },
+            {
+                url: "https://iroiro.dev/images/出雲大社1080.jpg",
+            },
         ],
-      },
-      twitter: {
+    },
+    twitter: {
         card: "summary",
         site: "@IroIro1234work",
         creator: "@IroIro1234work",
         images: "https://iroiro.dev/images/出雲大社1080.jpg",
-      },
-      appleWebApp: {
+    },
+    appleWebApp: {
         capable: true,
         title: "いろいろポートフォリオ", // アプリ名は変えない
         statusBarStyle: "black-translucent",
-      },
-      formatDetection: {
+    },
+    formatDetection: {
         telephone: false,
         email: false,
         address: false,
-      },
-  };
+    },
+};
 
-  const apps: AppInfo[] = [
+const apps: AppInfo[] = [
     { id: 6477782786, region: "jp" },
     { id: 6470128646, region: "jp" },
     { id: 6450119338, region: "jp" },
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     { id: 1612026794, region: "jp" },
     { id: 1672080999, region: "jp" },
     { id: 1574021257, region: "jp" },
-  ];
+];
 
 export default async function Product() {
     const prices = await fetchPrices();
@@ -561,25 +561,25 @@ export default async function Product() {
 async function fetchPrices(): Promise<AppPriceData[]> {
     const apiBaseURL = "https://itunes.apple.com/lookup?";
     const prices: AppPriceData[] = [];
-  
+
     for (const app of apps) {
-      const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
-      try {
-        const response = await fetch(apiEndpoint);
-        const data = await response.json();
-        if (data.results && data.results[0]) {
-          prices.push({
-            id: app.id,
-            price: data.results[0].formattedPrice || "Free",
-          });
-        } else {
-          prices.push({ id: app.id, price: "App not found" });
+        const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
+        try {
+            const response = await fetch(apiEndpoint);
+            const data = await response.json();
+            if (data.results && data.results[0]) {
+                prices.push({
+                    id: app.id,
+                    price: data.results[0].formattedPrice || "Free",
+                });
+            } else {
+                prices.push({ id: app.id, price: "App not found" });
+            }
+        } catch (err) {
+            console.error(`Error fetching data for ${app.id}:`, err);
+            prices.push({ id: app.id, price: "Error fetching data" });
         }
-      } catch (err) {
-        console.error(`Error fetching data for ${app.id}:`, err);
-        prices.push({ id: app.id, price: "Error fetching data" });
-      }
     }
-  
+
     return prices
-  };
+};

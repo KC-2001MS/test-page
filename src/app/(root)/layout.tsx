@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Script from 'next/script'; 
+import Script from 'next/script';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import "@styles/var.css";
@@ -74,16 +74,16 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head prefix="og: https://ogp.me/ns#">
-      <Script async src={"https://www.googletagmanager.com/gtag/js?id=G-L32Y5LGJEB"} />
-      <Script id='google-analytics' strategy='afterInteractive'>
-        {`
+        <Script async src={"https://www.googletagmanager.com/gtag/js?id=G-L32Y5LGJEB"} />
+        <Script id='google-analytics' strategy='afterInteractive'>
+          {`
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-L32Y5LGJEB');
       `}
-      </Script>
+        </Script>
         <meta name="date" content="2024-12-01" />
         <meta name="google" content="nositelinkssearchbox" />
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />

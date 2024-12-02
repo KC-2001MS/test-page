@@ -101,9 +101,9 @@ export default function RootLayout({
         <link rel="me" href="https://mastodon.social/@Iroiro" />
       </head>
       <body>
-      <Header lang={Language.EnglishUS} />
+        <Header lang={Language.EnglishUS} />
         {children}
-        <Footer lang={Language.EnglishUS}/>
+        <Footer lang={Language.EnglishUS} />
       </body>
     </html>
   );

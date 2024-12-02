@@ -7,7 +7,7 @@ export default function Home() {
         <p id="goalSubtitle">私自身の手で作り出します</p>
       </div>
       <div id="language">
-        言語 : <a id="languageItem" href="./en/">English</a>
+        言語 : <a id="languageItem" href="./en">English</a>
       </div>
     </main>
   );

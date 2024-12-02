@@ -121,8 +121,12 @@ export default function Contact() {
               <div className="h4card">
                 <h4>Contribution</h4>
                 <p>If you would like to make a donation, please click here. The money you donate will be used to improve my programming skills and maintain the application.</p>
-                <p><a href="https://www.buymeacoffee.com/iroiro" target="_top"><img src={`https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png`} alt="Buy Me A Coffee" style={{ "height": "60px !important", "width": "217px !important" }} /></a></p>
-                <p><a href="https://paypal.me/iroiroWork" style={{ borderRadius: '20px', display: 'block', width: '217px', padding: '15px', boxSizing: 'border-box', background: '#0070ba', color: '#FFF', textDecoration: 'none', textAlign: 'center' }}>Pay by PayPal</a></p>
+                <a href="https://www.buymeacoffee.com/iroiro" target="_top">
+                  <img src={`https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png`} alt="Buy Me A Coffee" style={{ "height": "60px", "width": "217px" }} />
+                </a>
+                <p>
+                  <a href="https://paypal.me/iroiroWork" style={{ borderRadius: '20px', display: 'block', width: '217px', padding: '15px', boxSizing: 'border-box', background: '#0070ba', color: '#FFF', textDecoration: 'none', textAlign: 'center' }}>Pay by PayPal</a>
+                </p>
               </div>
             </div>
           </div>

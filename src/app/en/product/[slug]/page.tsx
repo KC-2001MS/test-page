@@ -2,6 +2,8 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkBreaks from "remark-breaks";
+import remarkGfm from "remark-gfm";
 import html from "remark-html";
 import { Metadata } from "next";
 
@@ -104,7 +106,11 @@ async function getProduct(slug: string) {
   const fileContents = fs.readFileSync(filePath, "utf-8");
 
   const { content } = matter(fileContents);
-  const processedContent = await remark().use(html).process(content);
+  const processedContent = await remark()
+    .use(remarkGfm)
+    .use(remarkBreaks)
+    .use(html)
+    .process(content);
 
   return {
     content: processedContent.toString(),

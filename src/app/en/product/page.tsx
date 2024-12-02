@@ -11,12 +11,12 @@ const PATH = process.env.GITHUB_PAGES === 'true' ? '/test-page' : '';
 interface AppInfo {
     id: number;
     region: string;
-  }
-  
-  interface AppPriceData {
+}
+
+interface AppPriceData {
     id: number;
     price: string;
-  }
+}
 
 export const metadata: Metadata = {
     title: "Applications developed and projects/services contributed to by the Iroiro",
@@ -81,8 +81,8 @@ export const metadata: Metadata = {
         address: false,
     },
 };
-  
-  const apps: AppInfo[] = [
+
+const apps: AppInfo[] = [
     { id: 6470128646, region: "us" },
     { id: 6450119338, region: "us" },
     { id: 1668831130, region: "us" },
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
     { id: 1612026794, region: "us" },
     { id: 1672080999, region: "us" },
     { id: 1574021257, region: "us" },
-  ];
+];
 
 export default async function Product() {
     const prices = await fetchPrices();
@@ -134,7 +134,7 @@ export default async function Product() {
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
                                 <AppStoreLink appId="id6470128646" lang={Language.EnglishUS} />
-                                <AppPrice id={6470128646} prices={prices} lang={Language.EnglishUS}  />
+                                <AppPrice id={6470128646} prices={prices} lang={Language.EnglishUS} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -187,8 +187,8 @@ export default async function Product() {
                             <h4><a href="./product/mywordx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id6450119338" lang={Language.EnglishUS}  />
-                                <AppPrice id={6450119338} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id6450119338" lang={Language.EnglishUS} />
+                                <AppPrice id={6450119338} prices={prices} lang={Language.EnglishUS} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -238,8 +238,8 @@ export default async function Product() {
                             <h4><a href="./product/wordfilterx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id1668831130" lang={Language.EnglishUS}  />
-                                <AppPrice id={1668831130} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id1668831130" lang={Language.EnglishUS} />
+                                <AppPrice id={1668831130} prices={prices} lang={Language.EnglishUS} />
                             </div>
                         </div>
                         <div className="h4card clear">
@@ -289,8 +289,8 @@ export default async function Product() {
                             <h4><a href="./product/uncheckx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id6446932202" lang={Language.EnglishUS}  />
-                                <AppPrice id={6446932202} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id6446932202" lang={Language.EnglishUS} />
+                                <AppPrice id={6446932202} prices={prices} lang={Language.EnglishUS} />
                             </div>
 
                         </div>
@@ -335,8 +335,8 @@ export default async function Product() {
                             <h4><a href="./product/simpleeditorx">Support Page</a></h4>
                             <h4><a href="mailto:iroiro.work1234@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id1612026794" lang={Language.EnglishUS}  />
-                                <AppPrice id={1612026794} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id1612026794" lang={Language.EnglishUS} />
+                                <AppPrice id={1612026794} prices={prices} lang={Language.EnglishUS} />
                             </div>
                         </div>
                     </div>
@@ -404,8 +404,8 @@ export default async function Product() {
                                 accept support here.
                             </p>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id1672080999" lang={Language.EnglishUS}  />
-                                <AppPrice id={1672080999} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id1672080999" lang={Language.EnglishUS} />
+                                <AppPrice id={1672080999} prices={prices} lang={Language.EnglishUS} />
                             </div>
 
                         </div>
@@ -441,8 +441,8 @@ export default async function Product() {
                             <h4><a href="https://github.com/brandonlee503/DeclutterInfo">Support Page</a></h4>
                             <h4><a href="mailto:declutterappextension@gmail.com">Feedback</a></h4>
                             <div className="appInfoButtom">
-                                <AppStoreLink appId="id1574021257" lang={Language.EnglishUS}  />
-                                <AppPrice id={1574021257} prices={prices} lang={Language.EnglishUS}  />
+                                <AppStoreLink appId="id1574021257" lang={Language.EnglishUS} />
+                                <AppPrice id={1574021257} prices={prices} lang={Language.EnglishUS} />
                             </div>
                         </div>
                     </div>
@@ -532,25 +532,25 @@ export default async function Product() {
 async function fetchPrices(): Promise<AppPriceData[]> {
     const apiBaseURL = "https://itunes.apple.com/lookup?";
     const prices: AppPriceData[] = [];
-  
+
     for (const app of apps) {
-      const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
-      try {
-        const response = await fetch(apiEndpoint);
-        const data = await response.json();
-        if (data.results && data.results[0]) {
-          prices.push({
-            id: app.id,
-            price: data.results[0].formattedPrice || "Free",
-          });
-        } else {
-          prices.push({ id: app.id, price: "App not found" });
+        const apiEndpoint = `${apiBaseURL}id=${app.id}&country=${app.region}`;
+        try {
+            const response = await fetch(apiEndpoint);
+            const data = await response.json();
+            if (data.results && data.results[0]) {
+                prices.push({
+                    id: app.id,
+                    price: data.results[0].formattedPrice || "Free",
+                });
+            } else {
+                prices.push({ id: app.id, price: "App not found" });
+            }
+        } catch (err) {
+            console.error(`Error fetching data for ${app.id}:`, err);
+            prices.push({ id: app.id, price: "Error fetching data" });
         }
-      } catch (err) {
-        console.error(`Error fetching data for ${app.id}:`, err);
-        prices.push({ id: app.id, price: "Error fetching data" });
-      }
     }
-  
+
     return prices
-  };
+};
