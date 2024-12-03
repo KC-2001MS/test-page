@@ -6,7 +6,7 @@ import remarkBreaks from "remark-breaks";
 import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
-import html from "remark-html";
+import rehypeStringify from "rehype-stringify";
 import { Metadata } from "next";
 
 type ProductPageProps = {
@@ -115,7 +115,7 @@ async function getProduct(slug: string) {
       allowDangerousHtml: true,
     })
     .use(rehypeRaw)
-    .use(html)
+    .use(rehypeStringify)
     .process(content);
 
   return {

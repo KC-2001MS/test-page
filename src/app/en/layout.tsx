@@ -88,6 +88,8 @@ export default function RootLayout({
         gtag('config', 'G-L32Y5LGJEB');
       `}
         </Script>
+        <Script async src={"https://embed.bsky.app/static/embed.js"} charSet="utf-8" />
+        <Script async src={"https://platform.twitter.com/widgets.js"} charSet="utf-8" />
         <meta name="date" content="2024-12-01" />
         <meta name="google" content="nositelinkssearchbox" />
         <link rel="preconnect" href="https://www.youtube-nocookie.com" />

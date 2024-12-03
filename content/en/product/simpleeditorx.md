@@ -34,6 +34,28 @@ Supported Platforms
 Privacy Policy
 Please see our [Privacy Policy](/en/privacy) for more details.
 
+Notice
+<div class="isLightMode">
+    <blockquote class="twitter-tweet" data-lang="en">
+        <p lang="en" dir="ltr">Important Notice<br>Due to the EU Digital Services Act (DSA), it has
+            become difficult for me to continue our services. Therefore, I am discontinuing the
+            following paid applications within the EU. I apologize for any inconvenience this may
+            cause and appreciate your understanding.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1781383748514390459?ref_src=twsrc%5Etfw">April
+            19, 2024</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="dark">
+        <p lang="en" dir="ltr">Important Notice<br>Due to the EU Digital Services Act (DSA), it has
+            become difficult for me to continue our services. Therefore, I am discontinuing the
+            following paid applications within the EU. I apologize for any inconvenience this may
+            cause and appreciate your understanding.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1781383748514390459?ref_src=twsrc%5Etfw">April
+            19, 2024</a>
+    </blockquote>
+</div>
+
 ## Add canned text
 1. Open the settings screen
 Open the settings screen from "Settings" on the menu bar.

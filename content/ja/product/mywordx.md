@@ -48,29 +48,29 @@ My Word Xには以下の特徴があります。
 
 お知らせ
 <div class="isLightMode">
-                        <blockquote class="twitter-tweet" data-lang="ja">
-                            <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
-                                XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
-                                    href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
-                                <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
-                                    href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
-                            </p>&mdash; いろいろ(Iroiro)
-                            (@IroIro1234work) <a
-                                href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
-                        </blockquote>
-                    </div>
-                    <div class="isDarkMode">
-                        <blockquote class="twitter-tweet" data-lang="ja" data-theme="dark">
-                            <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
-                                XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
-                                    href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
-                                <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
-                                    href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
-                            </p>&mdash; いろいろ(Iroiro)
-                            (@IroIro1234work) <a
-                                href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
-                        </blockquote>
-                    </div>
+    <blockquote class="twitter-tweet" data-lang="ja">
+        <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
+            XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
+                href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+            <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
+                href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
+        </p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="ja" data-theme="dark">
+        <p lang="ja" dir="ltr">本日、自分で作る辞書アプリMy Word
+            XをAppleの全てのプラットフォームで展開できたことをとても嬉しく思います。まだまだ、至らぬ点もありますが改良を重ねていきたいです。<a
+                href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+            <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a><a
+                href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a>
+        </p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716103933930999893?ref_src=twsrc%5Etfw">2023年10月22日</a>
+    </blockquote>
+</div>
 
 ## 単語の追加
 ツールバーのプラスアイコンをクリック  
@@ -80,7 +80,7 @@ My Word Xには以下の特徴があります。
 ショートカットアプリのショートカットにMy Word Xのアクションを追加することで、効率的なワークフローを実現できます。
 ### SiriからMy Word Xに単語を登録
 以下の言葉で単語を追加するアクションを開始できます。  
-「My Word Xに単語を追加」
+- 「My Word Xに単語を追加」
 ### ショートカットアプリにMy Word Xアクションを追加
 1. ショートカットアプリから新しいショートカットを追加します。
 2. My Word Xのアクションから、ショートカットに追加したいアクションを選択してドラックアンドドロップで追加します。

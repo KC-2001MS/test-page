@@ -16,15 +16,52 @@ The MPSZ format is the standard format used in Japanese mahjong to represent the
 - When followed by MPSZ style tile symbols of the same tile type, all the tile type symbols of the same type on the left side can be omitted
   Example）1z1m2m3m1z -> 1z123m1z
 - Red tiles can be represented by adding an "r" in front of the MPSZ format tile symbol
-  Example）r5m = 🀋
+  Example）r5m = <span style="color:red">🀋</span>
 - There exists an MPSZ-style tile symbol - which can be represented by a single letter and represents the back side of the tile 🀫.
 The MPSZ format tile symbol assignments can be found below.
 
 ## MPSZ format tile symbols and tile assignments
 The tiles are represented according to the following assignments.
-| MPSZ形式牌記号 | 割り当て |
+| MPSZ format tile symbol | Assignment |
 | ---- | ---- |
-| MPSZ形式牌記号 | 割り当て |
+| 0m | <div style="color:red">🀋</div>  |
+| 1m | 🀇 |
+| 2m | 🀈 |
+| 3m | 🀉 |
+| 4m | 🀊 |
+| 5m | 🀋 |
+| 6m | 🀌 |
+| 7m | 🀍 |
+| 8m | 🀎 |
+| 9m | 🀏 |
+| 0p | <div style="color:red">🀝</div> |
+| 1p | 🀙 |
+| 2p | 🀚 |
+| 3p | 🀛 |
+| 4p | 🀜 |
+| 5p | 🀝 |
+| 6p | 🀞 |
+| 7p | 🀟 |
+| 8p | 🀠 |
+| 9p | 🀡 |
+| 0s | <div style="color:red">🀔</div> |
+| 1s | 🀐 |
+| 2s | 🀑 |
+| 3s | 🀒 |
+| 4s | 🀓 |
+| 5s | 🀔 |
+| 6s | 🀕 |
+| 7s | 🀖 |
+| 8s | 🀗 |
+| 9s | 🀘 |
+| - | 🀫 |
+| 1z | 🀀 |
+| 2z | 🀁 |
+| 3z | 🀂 |
+| 4z | 🀃 |
+| 5z | 🀆 |
+| 6z | 🀅 |
+| 7z | 🀄︎ |
 
 ## MPSZ format to tile conversion tool
 ### [Mahjong Tile Converter](https://apps.apple.com/app/id6470128646)

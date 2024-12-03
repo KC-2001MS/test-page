@@ -46,6 +46,56 @@ Supported Platforms
 Privacy Policy
 Please see our [Privacy Policy](/en/privacy) for more details.
 
+Notice
+<div class="isLightMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="light">
+        <p lang="en" dir="ltr">Today, I am very happy to announce that we have rolled out My Word X,
+            our self-made dictionary application, on all Apple platforms. There are still some
+            things we haven&#39;t quite got right, but we&#39;d like to keep improving it.<a
+                href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+            <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a> <a
+                href="https://twitter.com/hashtag/AppStore?src=hash&amp;ref_src=twsrc%5Etfw">#AppStore</a><a
+                href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a></p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716107423478653384?ref_src=twsrc%5Etfw">October
+            22, 2023</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="dark">
+        <p lang="en" dir="ltr">Today, I am very happy to announce that we have rolled out My Word X,
+            our self-made dictionary application, on all Apple platforms. There are still some
+            things we haven&#39;t quite got right, but we&#39;d like to keep improving it.<a
+                href="https://twitter.com/hashtag/MyWordX?src=hash&amp;ref_src=twsrc%5Etfw">#MyWordX</a>
+            <a href="https://twitter.com/hashtag/App?src=hash&amp;ref_src=twsrc%5Etfw">#App</a> <a
+                href="https://twitter.com/hashtag/AppStore?src=hash&amp;ref_src=twsrc%5Etfw">#AppStore</a><a
+                href="https://t.co/6hkikGIWGi">https://t.co/6hkikGIWGi</a></p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716107423478653384?ref_src=twsrc%5Etfw">October
+            22, 2023</a>
+    </blockquote>
+</div>
+<div class="isLightMode">
+    <blockquote class="twitter-tweet" data-lang="en">
+        <p lang="en" dir="ltr">Important Notice<br>Due to the EU Digital Services Act (DSA), it has
+            become difficult for me to continue our services. Therefore, I am discontinuing the
+            following paid applications within the EU. I apologize for any inconvenience this may
+            cause and appreciate your understanding.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1781383748514390459?ref_src=twsrc%5Etfw">April
+            19, 2024</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="dark">
+        <p lang="en" dir="ltr">Important Notice<br>Due to the EU Digital Services Act (DSA), it has
+            become difficult for me to continue our services. Therefore, I am discontinuing the
+            following paid applications within the EU. I apologize for any inconvenience this may
+            cause and appreciate your understanding.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1781383748514390459?ref_src=twsrc%5Etfw">April
+            19, 2024</a>
+    </blockquote>
+</div>
+
 ## Add a word
 ### Click the plus icon on the toolbar
 There is a plus icon on the toolbar. Clicking this icon will take you to the Add Word screen.

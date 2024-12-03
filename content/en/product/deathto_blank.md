@@ -27,6 +27,48 @@ Supported Platforms
 Privacy Policy
 Please see our [Privacy Policy](/en/privacy) for more details.
 
+Notice
+<div class="isLightMode">
+    <blockquote class="twitter-tweet" data-lang="en">
+        <p lang="en" dir="ltr">Today I am very pleased to announce that I am deploying the following
+            Safari extensions for visionOS.<br>・Uncheck X<br>・Death To _blank<br>・Word Filter
+            X<br><br>They have now been tested on actual devices and will be available for download
+            from the Vision Pro release.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1691774310145544264?ref_src=twsrc%5Etfw">August
+            16, 2023</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-theme="dark">
+        <p lang="en" dir="ltr">Today I am very pleased to announce that I am deploying the following
+            Safari extensions for visionOS.<br>・Uncheck X<br>・Death To _blank<br>・Word Filter
+            X<br><br>They have now been tested on actual devices and will be available for download
+            from the Vision Pro release.</p>&mdash; いろいろ(Iroiro) (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1691774310145544264?ref_src=twsrc%5Etfw">August
+            16, 2023</a>
+    </blockquote>
+</div>
+<div class="isLightMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="light">
+        <p lang="en" dir="ltr">Death to _blank is newly available on iOS, and those who use the
+            macOS version are encouraged to use it.<a
+                href="https://t.co/hKs5GnyeWX">https://t.co/hKs5GnyeWX</a></p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1709323839807914150?ref_src=twsrc%5Etfw">October
+            3, 2023</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="en" data-theme="dark">
+        <p lang="en" dir="ltr">Death to _blank is newly available on iOS, and those who use the
+            macOS version are encouraged to use it.<a
+                href="https://t.co/hKs5GnyeWX">https://t.co/hKs5GnyeWX</a></p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1709323839807914150?ref_src=twsrc%5Etfw">October
+            3, 2023</a>
+    </blockquote>
+</div>
+
 ## How to Activate and Configure
 See [how to activate and configure Safari extensions](/en/product/tips/safari_settings).
 

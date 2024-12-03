@@ -22,47 +22,47 @@ appId: "6470128646"
 
 お知らせ
 <div class="isLightMode">
-                        <blockquote class="twitter-tweet" data-lang="ja">
-                            <p lang="ja" dir="ltr">本日、macOS 14 Sonoma向けに <a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80%E7%89%8C%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀牌コンバータ</a>
-                                Appをリリースしました。<br>このアプリは、メニューバーアプリでMPSZ形式の牌姿をUnicodeのグラフィカルな表示に変換します。<br>変換前 :
-                                55z123456m234s567p<br>変換後 : 🀆🀆🀇🀈🀉🀊🀋🀌🀑🀒🀓🀝🀞🀟<a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#マージャン</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E6%97%A5%E6%9C%AC%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#日本麻將</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#麻將</a>
-                                <a href="https://t.co/MX1On11BJ3">pic.twitter.com/MX1On11BJ3</a>
-                            </p>&mdash; いろいろ(Iroiro)
-                            (@IroIro1234work) <a
-                                href="https://twitter.com/IroIro1234work/status/1716357810576142570?ref_src=twsrc%5Etfw">2023年10月23日</a>
-                        </blockquote>
-                    </div>
-                    <div class="isDarkMode">
-                        <blockquote class="twitter-tweet" data-lang="ja" data-theme="dark">
-                            <p lang="ja" dir="ltr">本日、macOS 14 Sonoma向けに <a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80%E7%89%8C%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀牌コンバータ</a>
-                                Appをリリースしました。<br>このアプリは、メニューバーアプリでMPSZ形式の牌姿をUnicodeのグラフィカルな表示に変換します。<br>変換前 :
-                                55z123456m234s567p<br>変換後 : 🀆🀆🀇🀈🀉🀊🀋🀌🀑🀒🀓🀝🀞🀟<a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#マージャン</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E6%97%A5%E6%9C%AC%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#日本麻將</a>
-                                <a
-                                    href="https://twitter.com/hashtag/%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#麻將</a>
-                                <a href="https://t.co/MX1On11BJ3">pic.twitter.com/MX1On11BJ3</a>
-                            </p>&mdash; いろいろ(Iroiro)
-                            (@IroIro1234work) <a
-                                href="https://twitter.com/IroIro1234work/status/1716357810576142570?ref_src=twsrc%5Etfw">2023年10月23日</a>
-                        </blockquote>
-                    </div>
+    <blockquote class="twitter-tweet" data-lang="ja">
+        <p lang="ja" dir="ltr">本日、macOS 14 Sonoma向けに <a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80%E7%89%8C%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀牌コンバータ</a>
+            Appをリリースしました。<br>このアプリは、メニューバーアプリでMPSZ形式の牌姿をUnicodeのグラフィカルな表示に変換します。<br>変換前 :
+            55z123456m234s567p<br>変換後 : 🀆🀆🀇🀈🀉🀊🀋🀌🀑🀒🀓🀝🀞🀟<a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀</a>
+            <a
+                href="https://twitter.com/hashtag/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#マージャン</a>
+            <a
+                href="https://twitter.com/hashtag/%E6%97%A5%E6%9C%AC%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#日本麻將</a>
+            <a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#麻將</a>
+            <a href="https://t.co/MX1On11BJ3">pic.twitter.com/MX1On11BJ3</a>
+        </p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716357810576142570?ref_src=twsrc%5Etfw">2023年10月23日</a>
+    </blockquote>
+</div>
+<div class="isDarkMode">
+    <blockquote class="twitter-tweet" data-lang="ja" data-theme="dark">
+        <p lang="ja" dir="ltr">本日、macOS 14 Sonoma向けに <a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80%E7%89%8C%E3%82%B3%E3%83%B3%E3%83%90%E3%83%BC%E3%82%BF?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀牌コンバータ</a>
+            Appをリリースしました。<br>このアプリは、メニューバーアプリでMPSZ形式の牌姿をUnicodeのグラフィカルな表示に変換します。<br>変換前 :
+            55z123456m234s567p<br>変換後 : 🀆🀆🀇🀈🀉🀊🀋🀌🀑🀒🀓🀝🀞🀟<a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E9%9B%80?src=hash&amp;ref_src=twsrc%5Etfw">#麻雀</a>
+            <a
+                href="https://twitter.com/hashtag/%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#マージャン</a>
+            <a
+                href="https://twitter.com/hashtag/%E6%97%A5%E6%9C%AC%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#日本麻將</a>
+            <a
+                href="https://twitter.com/hashtag/%E9%BA%BB%E5%B0%87?src=hash&amp;ref_src=twsrc%5Etfw">#麻將</a>
+            <a href="https://t.co/MX1On11BJ3">pic.twitter.com/MX1On11BJ3</a>
+        </p>&mdash; いろいろ(Iroiro)
+        (@IroIro1234work) <a
+            href="https://twitter.com/IroIro1234work/status/1716357810576142570?ref_src=twsrc%5Etfw">2023年10月23日</a>
+    </blockquote>
+</div>
 
 ## Unicodeへの変換
 1. メニューバーの🀟アイコンを押下してポップアップを表示する
 2. テキストフィードにMPSZ形式[^1]で表現したい牌を入力する
 3. 「変換」ボタンを押下する
 
-[^1]: MPSZ形式関して、詳しくは「麻雀の牌姿を表現するMPSZ形式とは」でご確認ください。
+[^1]: MPSZ形式関して、詳しくは[「麻雀の牌姿を表現するMPSZ形式とは」](/product/tips/mpsz)でご確認ください。
