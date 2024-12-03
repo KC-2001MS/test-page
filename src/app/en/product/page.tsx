@@ -473,6 +473,16 @@ export default async function Product() {
                     </div>
                 </div>
                 <div className="h2card clear">
+                    <h2 className="n5">Brave Goggle</h2>
+                    <div className="h3card">
+                        <h3>Swift</h3>
+                        <p>
+                            This goggle provides information related to the Swift language.
+                            Please see the <a href="./product/brave_swift-goggle">More about Brave Swift goggle</a> for an overview.
+                        </p>
+                    </div>
+                </div>
+                <div className="h2card clear">
                     <h2 className="n4">Framework & Packages</h2>
                     <div className="h3card">
                         <h3>SwiftStorage</h3>
@@ -493,6 +503,20 @@ export default async function Product() {
                         <p>
                             Package for creating easy onboarding with SwiftUI.
                             Please visit the <a href="https://github.com/KC-2001MS/OnboardingUI">OnboardingUI repository</a> for an overview.
+                        </p>
+                    </div>
+                    <div className="h3card">
+                        <h3>AboutUI</h3>
+                        <p>
+                            Package to create a window about macOS apps in SwiftUI.
+                            Please visit the <a href="https://github.com/KC-2001MS/AboutUI">AboutUI repository</a> for an overview.
+                        </p>
+                    </div>
+                    <div className="h3card">
+                        <h3>ArticleUI</h3>
+                        <p>
+                            A package that allows you to create a UI for articles like List in SwiftUI.
+                            Please visit the <a href="https://github.com/KC-2001MS/ArticleUI">ArticleUI repository</a> for an overview.
                         </p>
                     </div>
                 </div>

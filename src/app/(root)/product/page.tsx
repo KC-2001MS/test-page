@@ -503,6 +503,17 @@ export default async function Product() {
                     </div>
                 </div>
                 <div className="h2card clear">
+                    <h2 className="n6">Brave Goggle</h2>
+                    <div className="h3card">
+                        <h3>Swift</h3>
+                        <p>
+                            Swift言語に関連する情報を提供するGoggleです。
+                            概要は<a
+                                href="./product/brave_swift-goggle">Brave Swift Goggle【公式】</a>からご確認ください。
+                        </p>
+                    </div>
+                </div>
+                <div className="h2card clear">
                     <h2 className="n4">フレームワーク・パッケージ</h2>
                     <div className="h3card">
                         <h3>SwiftStorage</h3>
@@ -523,6 +534,20 @@ export default async function Product() {
                         <p>
                             SwiftUIで簡単にオンボーディングを作成するためのパッケージ。
                             概要は<a href="https://github.com/KC-2001MS/OnboardingUI">OnboardingUIリポジトリ</a>からご確認ください。
+                        </p>
+                    </div>
+                    <div className="h3card">
+                        <h3>AboutUI</h3>
+                        <p>
+                            SwiftUIでmacOSのアプリについてのウインドウを作成するためのパッケージ。
+                            概要は<a href="https://github.com/KC-2001MS/AboutUI">AboutUIリポジトリ</a>からご確認ください。
+                        </p>
+                    </div>
+                    <div className="h3card">
+                        <h3>ArticleUI</h3>
+                        <p>
+                            SwiftUIのListのように記事のUIを作成できるパッケージ。
+                            概要は<a href="https://github.com/KC-2001MS/ArticleUI">ArticleUIリポジトリ</a>からご確認ください。
                         </p>
                     </div>
                 </div>
